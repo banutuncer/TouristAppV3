@@ -7,10 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Roskilde_University_10.jpg"/>
+        </Grid.Background>
         <Image HorizontalAlignment="Left" Height="260" Margin="797,43,0,0" VerticalAlignment="Top" Width="394"/>
         <TextBlock HorizontalAlignment="Left" Margin="835,395,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="258" FontSize="36" Text="Description"/>
-        <TextBlock HorizontalAlignment="Left" Margin="210,60,0,0" TextWrapping="Wrap" Text="TouristAppV3" VerticalAlignment="Top" Height="98" Width="511" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="210,60,0,0" TextWrapping="Wrap" Text="TravelGuide" VerticalAlignment="Top" Height="98" Width="511" FontSize="72"/>
         <Button Content="Nature" HorizontalAlignment="Left" Margin="184,429,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Button Content="Restaurants" HorizontalAlignment="Left" Margin="184,308,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Button Content="Exercise" HorizontalAlignment="Left" Margin="184,370,0,0" VerticalAlignment="Top" FontSize="20"/>
