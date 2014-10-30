@@ -28,7 +28,29 @@ namespace TouristAppV3
             this.InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        
+
+        private void NatureButton_OnClickButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NatureDetailPage));
+        }
+
+        private void RestaurantButton_OnClick_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(RestaurantDetailPage));
+        }
+
+        private void ExerciseButton_OnClickButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ExerciseDetailPage));
+        }
+
+        private void HotelButton_OnClickButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HotelDetailPage));
+        }
+
+        private void MuseumButton_OnClickButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(vikingDetailPage));
         }

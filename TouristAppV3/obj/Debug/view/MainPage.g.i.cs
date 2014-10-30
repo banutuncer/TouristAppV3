@@ -15,6 +15,18 @@ namespace TouristAppV3
     partial class MainPage : global::Windows.UI.Xaml.Controls.Page
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Grid Grid; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button NatureButton; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button RestaurantButton; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button ExerciseButton; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button HotelButton; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Button MuseumButton; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private bool _contentLoaded;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
@@ -27,6 +39,12 @@ namespace TouristAppV3
             _contentLoaded = true;
             global::Windows.UI.Xaml.Application.LoadComponent(this, new global::System.Uri("ms-appx:///view/MainPage.xaml"), global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation.Application);
  
+            Grid = (global::Windows.UI.Xaml.Controls.Grid)this.FindName("Grid");
+            NatureButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("NatureButton");
+            RestaurantButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("RestaurantButton");
+            ExerciseButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("ExerciseButton");
+            HotelButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("HotelButton");
+            MuseumButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("MuseumButton");
         }
     }
 }

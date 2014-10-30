@@ -110,10 +110,22 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="view\ExerciseDetailPage.xaml.cs">
+      <DependentUpon>ExerciseDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view\HotelDetailPage.xaml.cs">
+      <DependentUpon>HotelDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\NatureDetailPage.xaml.cs">
+      <DependentUpon>NatureDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view\RestaurantDetailPage.xaml.cs">
+      <DependentUpon>RestaurantDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view\vikingDetailPage.xaml.cs">
       <DependentUpon>vikingDetailPage.xaml</DependentUpon>
     </Compile>
@@ -136,7 +148,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="view\ExerciseDetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="view\HotelDetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="view\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="view\NatureDetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="view\RestaurantDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
