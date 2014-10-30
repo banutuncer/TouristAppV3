@@ -1,1 +1,1 @@
-c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\TouristAppV3.csproj;neutral
+C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\TouristAppV3.csproj;neutral

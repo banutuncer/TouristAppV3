@@ -1,53 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>SAMSUNG-PC</Machine>
-    <WindowsUser>SAMSUNG</WindowsUser>
+    <Machine>GORDON-PC</Machine>
+    <WindowsUser>Jubacabra</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>6a9b544c-3420-43f5-bc60-9eece9e6afda</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\TouristAppV3.exe">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.exe">
       <PackagePath>TouristAppV3.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Roskilde_University_10.jpg">
+      <PackagePath>Assets\Roskilde_University_10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\view\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\MainPage.xbf">
       <PackagePath>view\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\view\vikingDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\vikingDetailPage.xbf">
       <PackagePath>view\vikingDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
       <PackagePath>TouristAppV3.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\samsung\documents\visual studio 2013\Projects\TouristAppV3\TouristAppV3\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
