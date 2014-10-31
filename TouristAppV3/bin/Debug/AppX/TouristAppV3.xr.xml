@@ -9,6 +9,9 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="TouristAppV3.ExerciseDetailPage" />
+    <RootType FullName="TouristAppV3.view.HotelDetailPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="Stretch" />
       <RootProperty Name="ImageSource" />
@@ -39,7 +42,8 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="TouristAppV3.MainPage" />
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="TouristAppV3.view.NatureDetailPage" />
+    <RootType FullName="TouristAppV3.view.RestaurantDetailPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />

@@ -5,5 +5,9 @@ Assets\SplashScreen.scale-100.png
 Assets\StoreLogo.scale-100.png
 App.xbf
 TouristAppV3.xr.xml
+view\ExerciseDetailPage.xbf
+view\HotelDetailPage.xbf
 view\MainPage.xbf
+view\NatureDetailPage.xbf
+view\RestaurantDetailPage.xbf
 view\vikingDetailPage.xbf

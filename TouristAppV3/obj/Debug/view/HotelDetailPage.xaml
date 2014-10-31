@@ -8,6 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListView HorizontalAlignment="Left" Height="447" VerticalAlignment="Top" Width="209" Margin="10,157,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="15,38,0,0" TextWrapping="Wrap" Text="Hotels" VerticalAlignment="Top" Height="114" Width="204" FontSize="49"/>
 
     </Grid>
 </Page>

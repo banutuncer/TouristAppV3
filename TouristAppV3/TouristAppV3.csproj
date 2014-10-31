@@ -103,13 +103,13 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Folder Include="model\" />
-    <Folder Include="viewmodel\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="model\HotelModel.cs" />
+    <Compile Include="viewmodel\HotelViewModel.cs" />
     <Compile Include="view\ExerciseDetailPage.xaml.cs">
       <DependentUpon>ExerciseDetailPage.xaml</DependentUpon>
     </Compile>

@@ -41,8 +41,20 @@
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\ExerciseDetailPage.xbf">
+      <PackagePath>view\ExerciseDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\HotelDetailPage.xbf">
+      <PackagePath>view\HotelDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\MainPage.xbf">
       <PackagePath>view\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\NatureDetailPage.xbf">
+      <PackagePath>view\NatureDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\RestaurantDetailPage.xbf">
+      <PackagePath>view\RestaurantDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\vikingDetailPage.xbf">
       <PackagePath>view\vikingDetailPage.xbf</PackagePath>
