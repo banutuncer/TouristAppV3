@@ -1,8 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="Hotels" />
     <RootPropertyPathName Name="SelectedHotelModel" />
+    <RootPropertyPathName Name="Description" />
+    <RootPropertyPathName Name="Phonenumber" />
+    <RootPropertyPathName Name="Stars" />
+    <RootPropertyPathName Name="Location" />
+    <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="ImageUrl" />
+    <RootPropertyPathName Name="Hotels" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -40,15 +46,18 @@
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
-    <RootType FullName="TouristAppV3.view.HotelDetailPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="TouristAppV3.view.HotelDetailPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
