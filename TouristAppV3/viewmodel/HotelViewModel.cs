@@ -89,6 +89,17 @@ namespace TouristAppV3.viewmodel
             set { _hotels = value; }
         }
 
+        internal TouristAppV3.model.HotelModel HotelModel
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         #region INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
 

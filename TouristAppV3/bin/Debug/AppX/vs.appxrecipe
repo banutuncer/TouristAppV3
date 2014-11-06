@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>GORDON-PC</Machine>
-    <WindowsUser>Jubacabra</WindowsUser>
+    <Machine>SAMSUNG-PC</Machine>
+    <WindowsUser>SAMSUNG</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>6a9b544c-3420-43f5-bc60-9eece9e6afda</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>B8778DEA74B87579310B4B0C1210B68C4E796356340CDA379C37E91CA7CC48FC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6a9b544c-3420-43f5-bc60-9eece9e6afda_1.0.0.0_neutral__hm425jkg2rtbw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6a9b544c-3420-43f5-bc60-9eece9e6afda_hm425jkg2rtbw!App</RegisteredUserModeAppID>
@@ -17,172 +17,172 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-06T12:15:01.602</Modified>
+      <Modified>2014-11-06T13:00:35.048</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.exe">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\TouristAppV3.exe">
       <PackagePath>TouristAppV3.exe</PackagePath>
-      <Modified>2014-11-06T12:17:28.404</Modified>
+      <Modified>2014-11-06T13:00:34.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\ComwellHotel.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Hotels\ComwellHotel.jpg">
       <PackagePath>Assets\Hotels\ComwellHotel.jpg</PackagePath>
-      <Modified>2014-11-06T01:55:33.391</Modified>
+      <Modified>2014-11-06T12:44:23.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\DanhotelHotel.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Hotels\DanhotelHotel.jpg">
       <PackagePath>Assets\Hotels\DanhotelHotel.jpg</PackagePath>
-      <Modified>2014-11-06T02:02:54.666</Modified>
+      <Modified>2014-11-06T12:44:23.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\HotelBackground.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Hotels\HotelBackground.jpg">
       <PackagePath>Assets\Hotels\HotelBackground.jpg</PackagePath>
-      <Modified>2014-11-06T01:43:23.827</Modified>
+      <Modified>2014-11-06T12:44:23.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\PrindsenHotel.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Hotels\PrindsenHotel.jpg">
       <PackagePath>Assets\Hotels\PrindsenHotel.jpg</PackagePath>
-      <Modified>2014-11-06T01:52:43.653</Modified>
+      <Modified>2014-11-06T12:44:23.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\RoskildeCamping.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Hotels\RoskildeCamping.jpg">
       <PackagePath>Assets\Hotels\RoskildeCamping.jpg</PackagePath>
-      <Modified>2014-11-06T02:07:04.421</Modified>
+      <Modified>2014-11-06T12:44:23.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\ScandicHotel.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Hotels\ScandicHotel.jpg">
       <PackagePath>Assets\Hotels\ScandicHotel.jpg</PackagePath>
-      <Modified>2014-11-06T01:48:39.615</Modified>
+      <Modified>2014-11-06T12:44:23.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Restaurants\RestaurantsBackground.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Restaurants\RestaurantsBackground.jpg">
       <PackagePath>Assets\Restaurants\RestaurantsBackground.jpg</PackagePath>
-      <Modified>2014-11-06T02:38:46.896</Modified>
+      <Modified>2014-11-06T12:44:23.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Roskilde_University_10.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Roskilde_University_10.jpg">
       <PackagePath>Assets\Roskilde_University_10.jpg</PackagePath>
-      <Modified>2014-10-29T10:33:17.631</Modified>
+      <Modified>2014-11-06T12:44:23.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\background.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Running\background.jpg">
       <PackagePath>Assets\Running\background.jpg</PackagePath>
-      <Modified>2014-11-03T17:56:54.727</Modified>
+      <Modified>2014-11-06T12:44:23.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\map1.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Running\map1.jpg">
       <PackagePath>Assets\Running\map1.jpg</PackagePath>
-      <Modified>2014-11-03T18:13:48.901</Modified>
+      <Modified>2014-11-06T12:44:23.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\map2.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Running\map2.jpg">
       <PackagePath>Assets\Running\map2.jpg</PackagePath>
-      <Modified>2014-11-03T18:13:48.903</Modified>
+      <Modified>2014-11-06T12:44:23.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\map3.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Running\map3.jpg">
       <PackagePath>Assets\Running\map3.jpg</PackagePath>
-      <Modified>2014-11-03T18:13:48.905</Modified>
+      <Modified>2014-11-06T12:44:23.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\map4.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Running\map4.jpg">
       <PackagePath>Assets\Running\map4.jpg</PackagePath>
-      <Modified>2014-11-03T18:13:48.907</Modified>
+      <Modified>2014-11-06T12:44:23.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\resim4.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\resim4.jpg">
       <PackagePath>Assets\Vikings\resim4.jpg</PackagePath>
-      <Modified>2014-11-06T12:13:57.914</Modified>
+      <Modified>2014-11-06T12:44:23.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\resim5.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\resim5.jpg">
       <PackagePath>Assets\Vikings\resim5.jpg</PackagePath>
-      <Modified>2014-11-06T12:13:57.921</Modified>
+      <Modified>2014-11-06T12:44:23.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\resim6.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\resim6.jpg">
       <PackagePath>Assets\Vikings\resim6.jpg</PackagePath>
-      <Modified>2014-11-06T12:13:57.925</Modified>
+      <Modified>2014-11-06T12:44:23.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\resim7.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\resim7.jpg">
       <PackagePath>Assets\Vikings\resim7.jpg</PackagePath>
-      <Modified>2014-11-06T12:13:57.929</Modified>
+      <Modified>2014-11-06T12:44:23.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\resim8.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\resim8.jpg">
       <PackagePath>Assets\Vikings\resim8.jpg</PackagePath>
-      <Modified>2014-11-06T12:13:57.933</Modified>
+      <Modified>2014-11-06T12:44:23.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\resim9.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\resim9.jpg">
       <PackagePath>Assets\Vikings\resim9.jpg</PackagePath>
-      <Modified>2014-11-06T12:13:57.937</Modified>
+      <Modified>2014-11-06T12:44:23.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\VikingContact.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\VikingContact.jpg">
       <PackagePath>Assets\Vikings\VikingContact.jpg</PackagePath>
-      <Modified>2014-11-06T12:13:57.960</Modified>
+      <Modified>2014-11-06T12:44:23.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\VikingHistory.jpg">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\VikingHistory.jpg">
       <PackagePath>Assets\Vikings\VikingHistory.jpg</PackagePath>
-      <Modified>2014-11-06T12:13:57.964</Modified>
+      <Modified>2014-11-06T12:44:23.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-24T09:54:28.464</Modified>
+      <Modified>2014-11-06T12:44:23.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-24T09:54:28.464</Modified>
+      <Modified>2014-11-06T12:44:23.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-24T09:54:28.464</Modified>
+      <Modified>2014-11-06T12:44:23.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-24T09:54:28.464</Modified>
+      <Modified>2014-11-06T12:44:23.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\Map.png">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\Map.png">
       <PackagePath>Assets\Vikings\Map.png</PackagePath>
-      <Modified>2014-11-06T12:13:57.905</Modified>
+      <Modified>2014-11-06T12:44:23.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\resim3.png">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\resim3.png">
       <PackagePath>Assets\Vikings\resim3.png</PackagePath>
-      <Modified>2014-11-06T12:13:57.911</Modified>
+      <Modified>2014-11-06T12:44:23.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Vikings\VikingActivities.png">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\Assets\Vikings\VikingActivities.png">
       <PackagePath>Assets\Vikings\VikingActivities.png</PackagePath>
-      <Modified>2014-11-06T12:13:57.956</Modified>
+      <Modified>2014-11-06T12:44:23.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-11-06T11:22:46.537</Modified>
+      <Modified>2014-11-06T12:50:28.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\AdditionalView.xbf">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\view\AdditionalView.xbf">
       <PackagePath>view\AdditionalView.xbf</PackagePath>
-      <Modified>2014-11-06T12:17:28.219</Modified>
+      <Modified>2014-11-06T12:50:28.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\ExerciseDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\view\ExerciseDetailPage.xbf">
       <PackagePath>view\ExerciseDetailPage.xbf</PackagePath>
-      <Modified>2014-11-06T12:17:28.219</Modified>
+      <Modified>2014-11-06T12:50:28.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\HotelDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\view\HotelDetailPage.xbf">
       <PackagePath>view\HotelDetailPage.xbf</PackagePath>
-      <Modified>2014-11-06T12:17:28.219</Modified>
+      <Modified>2014-11-06T12:50:28.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\view\MainPage.xbf">
       <PackagePath>view\MainPage.xbf</PackagePath>
-      <Modified>2014-11-06T12:17:28.219</Modified>
+      <Modified>2014-11-06T12:50:28.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\NatureDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\view\NatureDetailPage.xbf">
       <PackagePath>view\NatureDetailPage.xbf</PackagePath>
-      <Modified>2014-11-06T11:22:46.537</Modified>
+      <Modified>2014-11-06T12:50:28.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\RestaurantDetailPage.xbf">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\view\RestaurantDetailPage.xbf">
       <PackagePath>view\RestaurantDetailPage.xbf</PackagePath>
-      <Modified>2014-11-06T12:17:28.219</Modified>
+      <Modified>2014-11-06T12:50:28.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\VikingView.xbf">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\view\VikingView.xbf">
       <PackagePath>view\VikingView.xbf</PackagePath>
-      <Modified>2014-11-06T12:17:28.219</Modified>
+      <Modified>2014-11-06T12:50:28.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
       <PackagePath>TouristAppV3.xr.xml</PackagePath>
-      <Modified>2014-11-06T12:13:17.761</Modified>
+      <Modified>2014-11-06T12:50:28.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-06T12:15:01.556</Modified>
+      <Modified>2014-11-06T13:00:34.689</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

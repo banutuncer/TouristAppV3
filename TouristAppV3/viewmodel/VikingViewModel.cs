@@ -32,6 +32,17 @@ namespace TouristAppV3.viewmodel
             }
         }
 
+        internal TouristAppV3.model.viking viking
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         public VikingViewModel()
         {
             _vikings = new ObservableCollection<viking>();

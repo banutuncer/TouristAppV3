@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="16b396cc-2f5a-4a21-a757-b30f9195f621" name="UMLClassDiagram1" linkedPackageId="2e81f3f7-69ba-4917-b9ad-155a33868b2f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="7cb26f47-00a4-4734-b2a3-fb09fd85f9be">
+      <profileInstance Id="2aa7152c-ab1b-4d0f-951d-a29f176f26de" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="827e8e2b-8378-460e-aa04-1dcc38cfbcc2">
+      <profileInstance Id="c072c4d4-9490-4359-a2c6-febebb6bbb83" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="362f487a-d79d-4785-90e3-7d9badfa47ac" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c4ffc978-f325-4bfb-b8f0-24ca157aac0c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="2e81f3f7-69ba-4917-b9ad-155a33868b2f" name="tourıstdesignmodel">
+    <elementDefinition Id="6543415c-7659-40fb-af8a-1d3ed703132f" />
+  </package>
+</logicalClassDesignerModel>

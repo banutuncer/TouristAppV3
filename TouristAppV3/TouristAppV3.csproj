@@ -145,6 +145,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="ClassDiagram1.cd" />
     <None Include="TouristAppV3_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

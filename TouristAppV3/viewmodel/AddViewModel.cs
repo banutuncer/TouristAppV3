@@ -33,6 +33,17 @@ namespace TouristAppV3.viewmodel
 
         }
 
+        internal TouristAppV3.model.AddModel AddModel
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         public AddViewModel()
         {
             _information = new ObservableCollection<AddModel>();
