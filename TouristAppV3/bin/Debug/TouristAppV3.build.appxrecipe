@@ -19,6 +19,15 @@
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.exe">
       <PackagePath>TouristAppV3.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\HotelBackground.jpg">
+      <PackagePath>Assets\Hotels\HotelBackground.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\ScandicHotel.jpg">
+      <PackagePath>Assets\Hotels\ScandicHotel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Roskilde_University_10.jpg">
+      <PackagePath>Assets\Roskilde_University_10.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -34,9 +43,6 @@
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Roskilde_University_10.jpg">
-      <PackagePath>Assets\Roskilde_University_10.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>

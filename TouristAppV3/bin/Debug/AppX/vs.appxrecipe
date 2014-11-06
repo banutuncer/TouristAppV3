@@ -20,13 +20,21 @@
     <AppXManifest Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-30T10:30:16.645</Modified>
+      <Modified>2014-11-06T01:43:30.317</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.exe">
       <PackagePath>TouristAppV3.exe</PackagePath>
-      <Modified>2014-10-30T10:32:13.975</Modified>
+      <Modified>2014-11-06T01:43:30.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\HotelBackground.jpg">
+      <PackagePath>Assets\Hotels\HotelBackground.jpg</PackagePath>
+      <Modified>2014-11-06T01:43:23.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Roskilde_University_10.jpg">
+      <PackagePath>Assets\Roskilde_University_10.jpg</PackagePath>
+      <Modified>2014-10-29T10:33:17.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -48,10 +56,6 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-10-24T09:54:28.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Roskilde_University_10.jpg">
-      <PackagePath>Assets\Roskilde_University_10.jpg</PackagePath>
-      <Modified>2014-10-29T10:33:17.631</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2014-10-30T09:17:19.394</Modified>
@@ -62,7 +66,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\HotelDetailPage.xbf">
       <PackagePath>view\HotelDetailPage.xbf</PackagePath>
-      <Modified>2014-10-30T09:36:21.363</Modified>
+      <Modified>2014-11-06T01:43:29.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\MainPage.xbf">
       <PackagePath>view\MainPage.xbf</PackagePath>
@@ -82,11 +86,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
       <PackagePath>TouristAppV3.xr.xml</PackagePath>
-      <Modified>2014-10-30T10:30:49.394</Modified>
+      <Modified>2014-11-06T01:41:07.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-30T10:30:16.526</Modified>
+      <Modified>2014-11-06T01:43:30.267</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

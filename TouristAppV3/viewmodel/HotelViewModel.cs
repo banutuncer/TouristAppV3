@@ -22,47 +22,47 @@ namespace TouristAppV3.viewmodel
             #region Ho1
             HotelModel Ho1 = new HotelModel();
             Ho1.Name = "Scandic";
-            Ho1.Location = "";
-            Ho1.Phonenumber = "";
+            Ho1.Location = "Søndre Ringvej 33";
+            Ho1.Phonenumber = "46320232";
             Ho1.Stars = 3;
-            Ho1.ImageUrl = "";
-            Ho1.Description = "";
+            Ho1.ImageUrl = @"assets/Hotels/ScandicHotel.jpg";
+            Ho1.Description = "Scandic Roskilde! /n Scandic is located in the beautiful Ringpark, and is just a few steps away from the city center";
             #endregion
             #region Ho2
             HotelModel Ho2 = new HotelModel();
-            Ho2.Name = "Scandic";
-            Ho2.Location = "";
-            Ho2.Phonenumber = "";
+            Ho2.Name = "Hotel Prindsen";
+            Ho2.Location = "Algade 13";
+            Ho2.Phonenumber = "46309100";
             Ho2.Stars = 3;
-            Ho2.ImageUrl = "";
-            Ho2.Description = "";
+            Ho2.ImageUrl = @"Assets/Hotels/PrindsenHotel.jpg";
+            Ho2.Description = "Prindsen Roskilde! /n A Hotel located in the city center, the style is ancient and the rooms feel old in a good way";
             #endregion
             #region Ho3
             HotelModel Ho3 = new HotelModel();
-            Ho3.Name = "Scandic";
-            Ho3.Location = "";
-            Ho3.Phonenumber = "";
+            Ho3.Name = "Comwell";
+            Ho3.Location = "Vestre Kirkevej 12";
+            Ho3.Phonenumber = "46323131";
             Ho3.Stars = 3;
-            Ho3.ImageUrl = "";
-            Ho3.Description = "";
+            Ho3.ImageUrl = @"Assets/Hotels/ComwellHotel.jpg";
+            Ho3.Description = "Comwell Roskilde! /n Comwell is a nice Hotel located near Roskilde fjord and has a nice view over the sea";
             #endregion
             #region Ho4
             HotelModel Ho4 = new HotelModel();
-            Ho4.Name = "Scandic";
-            Ho4.Location = "";
-            Ho4.Phonenumber = "";
-            Ho4.Stars = 3;
-            Ho4.ImageUrl = "";
-            Ho4.Description = "";
+            Ho4.Name = "Danhostel";
+            Ho4.Location = "Vindeboder 7";
+            Ho4.Phonenumber = "46352184";
+            Ho4.Stars = 0;
+            Ho4.ImageUrl = @"Assets/Hotels/DanhostelHotel.jpg";
+            Ho4.Description = "Danhostel Roskilde! /n Danhostel is a cheap but nice hotel Located near the Roskilde Harbour and has alot of green places located close to it";
             #endregion
             #region Ho5
             HotelModel Ho5 = new HotelModel();
-            Ho5.Name = "Scandic";
-            Ho5.Location = "";
-            Ho5.Phonenumber = "";
+            Ho5.Name = "Roskilde Camping & Cottages";
+            Ho5.Location = "Baunehøjvej 7";
+            Ho5.Phonenumber = "46757996";
             Ho5.Stars = 3;
-            Ho5.ImageUrl = "";
-            Ho5.Description = "";
+            Ho5.ImageUrl = @"Assets/Hotels/RoskildeCamping.jpg";
+            Ho5.Description = "Roskilde Camping & Cottages /n Roskilde camping is the perfect place to stay for a lowbudget vacation";
             #endregion
             #endregion
 
