@@ -108,12 +108,19 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="model\AddModel.cs" />
     <Compile Include="model\HotelModel.cs" />
     <Compile Include="model\RestaurantModel.cs" />
     <Compile Include="model\Route.cs" />
+    <Compile Include="model\Viking.cs" />
+    <Compile Include="viewmodel\AddViewModel.cs" />
     <Compile Include="viewmodel\ExerciseViewModel.cs" />
     <Compile Include="viewmodel\HotelViewModel.cs" />
     <Compile Include="viewmodel\RestaurantViewModel.cs" />
+    <Compile Include="viewmodel\VikingViewModel.cs" />
+    <Compile Include="view\AdditionalView.xaml.cs">
+      <DependentUpon>AdditionalView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view\ExerciseDetailPage.xaml.cs">
       <DependentUpon>ExerciseDetailPage.xaml</DependentUpon>
     </Compile>
@@ -130,8 +137,8 @@
     <Compile Include="view\RestaurantDetailPage.xaml.cs">
       <DependentUpon>RestaurantDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="view\vikingDetailPage.xaml.cs">
-      <DependentUpon>vikingDetailPage.xaml</DependentUpon>
+    <Compile Include="view\VikingView.xaml.cs">
+      <DependentUpon>VikingView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -158,12 +165,27 @@
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Vikings\Map.png" />
+    <Content Include="Assets\Vikings\resim3.png" />
+    <Content Include="Assets\Vikings\resim4.jpg" />
+    <Content Include="Assets\Vikings\resim5.jpg" />
+    <Content Include="Assets\Vikings\resim6.jpg" />
+    <Content Include="Assets\Vikings\resim7.jpg" />
+    <Content Include="Assets\Vikings\resim8.jpg" />
+    <Content Include="Assets\Vikings\resim9.jpg" />
+    <Content Include="Assets\Vikings\VikingActivities.png" />
+    <Content Include="Assets\Vikings\VikingContact.jpg" />
+    <Content Include="Assets\Vikings\VikingHistory.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="view\AdditionalView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="view\ExerciseDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -184,9 +206,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="view\vikingDetailPage.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="view\VikingView.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">

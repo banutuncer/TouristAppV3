@@ -124,55 +124,73 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[23];
-            _typeNameTable[0] = "TouristAppV3.viewmodel.ExerciseViewModel";
+            _typeNameTable = new string[32];
+            _typeNameTable[0] = "TouristAppV3.viewmodel.AddViewModel";
             _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.Route>";
-            _typeNameTable[3] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.Route>";
-            _typeNameTable[4] = "TouristAppV3.model.Route";
+            _typeNameTable[2] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.AddModel>";
+            _typeNameTable[3] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.AddModel>";
+            _typeNameTable[4] = "TouristAppV3.model.AddModel";
             _typeNameTable[5] = "String";
-            _typeNameTable[6] = "TouristAppV3.ExerciseDetailPage";
+            _typeNameTable[6] = "TouristAppV3.view.AdditionalView";
             _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[9] = "TouristAppV3.viewmodel.HotelViewModel";
-            _typeNameTable[10] = "TouristAppV3.model.HotelModel";
-            _typeNameTable[11] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.HotelModel>";
-            _typeNameTable[12] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.HotelModel>";
-            _typeNameTable[13] = "Int32";
-            _typeNameTable[14] = "TouristAppV3.view.HotelDetailPage";
-            _typeNameTable[15] = "TouristAppV3.MainPage";
-            _typeNameTable[16] = "TouristAppV3.view.NatureDetailPage";
-            _typeNameTable[17] = "TouristAppV3.viewmodel.RestaurantViewModel";
-            _typeNameTable[18] = "TouristAppV3.model.RestaurantModel";
-            _typeNameTable[19] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.RestaurantModel>";
-            _typeNameTable[20] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.RestaurantModel>";
-            _typeNameTable[21] = "TouristAppV3.view.RestaurantDetailPage";
-            _typeNameTable[22] = "TouristAppV3.view.vikingDetailPage";
+            _typeNameTable[9] = "TouristAppV3.viewmodel.ExerciseViewModel";
+            _typeNameTable[10] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.Route>";
+            _typeNameTable[11] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.Route>";
+            _typeNameTable[12] = "TouristAppV3.model.Route";
+            _typeNameTable[13] = "TouristAppV3.ExerciseDetailPage";
+            _typeNameTable[14] = "TouristAppV3.viewmodel.HotelViewModel";
+            _typeNameTable[15] = "TouristAppV3.model.HotelModel";
+            _typeNameTable[16] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.HotelModel>";
+            _typeNameTable[17] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.HotelModel>";
+            _typeNameTable[18] = "Int32";
+            _typeNameTable[19] = "TouristAppV3.view.HotelDetailPage";
+            _typeNameTable[20] = "TouristAppV3.MainPage";
+            _typeNameTable[21] = "TouristAppV3.view.NatureDetailPage";
+            _typeNameTable[22] = "TouristAppV3.viewmodel.RestaurantViewModel";
+            _typeNameTable[23] = "TouristAppV3.model.RestaurantModel";
+            _typeNameTable[24] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.RestaurantModel>";
+            _typeNameTable[25] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.RestaurantModel>";
+            _typeNameTable[26] = "TouristAppV3.view.RestaurantDetailPage";
+            _typeNameTable[27] = "TouristAppV3.viewmodel.VikingViewModel";
+            _typeNameTable[28] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.viking>";
+            _typeNameTable[29] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.viking>";
+            _typeNameTable[30] = "TouristAppV3.model.viking";
+            _typeNameTable[31] = "TouristAppV3.view.VikingView";
 
-            _typeTable = new global::System.Type[23];
-            _typeTable[0] = typeof(global::TouristAppV3.viewmodel.ExerciseViewModel);
+            _typeTable = new global::System.Type[32];
+            _typeTable[0] = typeof(global::TouristAppV3.viewmodel.AddViewModel);
             _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.Route>);
-            _typeTable[3] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.Route>);
-            _typeTable[4] = typeof(global::TouristAppV3.model.Route);
+            _typeTable[2] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.AddModel>);
+            _typeTable[3] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.AddModel>);
+            _typeTable[4] = typeof(global::TouristAppV3.model.AddModel);
             _typeTable[5] = typeof(global::System.String);
-            _typeTable[6] = typeof(global::TouristAppV3.ExerciseDetailPage);
+            _typeTable[6] = typeof(global::TouristAppV3.view.AdditionalView);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[9] = typeof(global::TouristAppV3.viewmodel.HotelViewModel);
-            _typeTable[10] = typeof(global::TouristAppV3.model.HotelModel);
-            _typeTable[11] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.HotelModel>);
-            _typeTable[12] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.HotelModel>);
-            _typeTable[13] = typeof(global::System.Int32);
-            _typeTable[14] = typeof(global::TouristAppV3.view.HotelDetailPage);
-            _typeTable[15] = typeof(global::TouristAppV3.MainPage);
-            _typeTable[16] = typeof(global::TouristAppV3.view.NatureDetailPage);
-            _typeTable[17] = typeof(global::TouristAppV3.viewmodel.RestaurantViewModel);
-            _typeTable[18] = typeof(global::TouristAppV3.model.RestaurantModel);
-            _typeTable[19] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.RestaurantModel>);
-            _typeTable[20] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.RestaurantModel>);
-            _typeTable[21] = typeof(global::TouristAppV3.view.RestaurantDetailPage);
-            _typeTable[22] = typeof(global::TouristAppV3.view.vikingDetailPage);
+            _typeTable[9] = typeof(global::TouristAppV3.viewmodel.ExerciseViewModel);
+            _typeTable[10] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.Route>);
+            _typeTable[11] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.Route>);
+            _typeTable[12] = typeof(global::TouristAppV3.model.Route);
+            _typeTable[13] = typeof(global::TouristAppV3.ExerciseDetailPage);
+            _typeTable[14] = typeof(global::TouristAppV3.viewmodel.HotelViewModel);
+            _typeTable[15] = typeof(global::TouristAppV3.model.HotelModel);
+            _typeTable[16] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.HotelModel>);
+            _typeTable[17] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.HotelModel>);
+            _typeTable[18] = typeof(global::System.Int32);
+            _typeTable[19] = typeof(global::TouristAppV3.view.HotelDetailPage);
+            _typeTable[20] = typeof(global::TouristAppV3.MainPage);
+            _typeTable[21] = typeof(global::TouristAppV3.view.NatureDetailPage);
+            _typeTable[22] = typeof(global::TouristAppV3.viewmodel.RestaurantViewModel);
+            _typeTable[23] = typeof(global::TouristAppV3.model.RestaurantModel);
+            _typeTable[24] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.RestaurantModel>);
+            _typeTable[25] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.RestaurantModel>);
+            _typeTable[26] = typeof(global::TouristAppV3.view.RestaurantDetailPage);
+            _typeTable[27] = typeof(global::TouristAppV3.viewmodel.VikingViewModel);
+            _typeTable[28] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.viking>);
+            _typeTable[29] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.viking>);
+            _typeTable[30] = typeof(global::TouristAppV3.model.viking);
+            _typeTable[31] = typeof(global::TouristAppV3.view.VikingView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -207,58 +225,91 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_ExerciseViewModel() { return new global::TouristAppV3.viewmodel.ExerciseViewModel(); }
-        private object Activate_2_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.Route>(); }
-        private object Activate_3_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.Route>(); }
-        private object Activate_4_Route() { return new global::TouristAppV3.model.Route(); }
-        private object Activate_6_ExerciseDetailPage() { return new global::TouristAppV3.ExerciseDetailPage(); }
-        private object Activate_9_HotelViewModel() { return new global::TouristAppV3.viewmodel.HotelViewModel(); }
-        private object Activate_10_HotelModel() { return new global::TouristAppV3.model.HotelModel(); }
-        private object Activate_11_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.HotelModel>(); }
-        private object Activate_12_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.HotelModel>(); }
-        private object Activate_14_HotelDetailPage() { return new global::TouristAppV3.view.HotelDetailPage(); }
-        private object Activate_15_MainPage() { return new global::TouristAppV3.MainPage(); }
-        private object Activate_16_NatureDetailPage() { return new global::TouristAppV3.view.NatureDetailPage(); }
-        private object Activate_17_RestaurantViewModel() { return new global::TouristAppV3.viewmodel.RestaurantViewModel(); }
-        private object Activate_18_RestaurantModel() { return new global::TouristAppV3.model.RestaurantModel(); }
-        private object Activate_19_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.RestaurantModel>(); }
-        private object Activate_20_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.RestaurantModel>(); }
-        private object Activate_21_RestaurantDetailPage() { return new global::TouristAppV3.view.RestaurantDetailPage(); }
-        private object Activate_22_vikingDetailPage() { return new global::TouristAppV3.view.vikingDetailPage(); }
+        private object Activate_0_AddViewModel() { return new global::TouristAppV3.viewmodel.AddViewModel(); }
+        private object Activate_2_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.AddModel>(); }
+        private object Activate_3_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.AddModel>(); }
+        private object Activate_4_AddModel() { return new global::TouristAppV3.model.AddModel(); }
+        private object Activate_6_AdditionalView() { return new global::TouristAppV3.view.AdditionalView(); }
+        private object Activate_9_ExerciseViewModel() { return new global::TouristAppV3.viewmodel.ExerciseViewModel(); }
+        private object Activate_10_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.Route>(); }
+        private object Activate_11_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.Route>(); }
+        private object Activate_12_Route() { return new global::TouristAppV3.model.Route(); }
+        private object Activate_13_ExerciseDetailPage() { return new global::TouristAppV3.ExerciseDetailPage(); }
+        private object Activate_14_HotelViewModel() { return new global::TouristAppV3.viewmodel.HotelViewModel(); }
+        private object Activate_15_HotelModel() { return new global::TouristAppV3.model.HotelModel(); }
+        private object Activate_16_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.HotelModel>(); }
+        private object Activate_17_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.HotelModel>(); }
+        private object Activate_19_HotelDetailPage() { return new global::TouristAppV3.view.HotelDetailPage(); }
+        private object Activate_20_MainPage() { return new global::TouristAppV3.MainPage(); }
+        private object Activate_21_NatureDetailPage() { return new global::TouristAppV3.view.NatureDetailPage(); }
+        private object Activate_22_RestaurantViewModel() { return new global::TouristAppV3.viewmodel.RestaurantViewModel(); }
+        private object Activate_23_RestaurantModel() { return new global::TouristAppV3.model.RestaurantModel(); }
+        private object Activate_24_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.RestaurantModel>(); }
+        private object Activate_25_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.RestaurantModel>(); }
+        private object Activate_26_RestaurantDetailPage() { return new global::TouristAppV3.view.RestaurantDetailPage(); }
+        private object Activate_27_VikingViewModel() { return new global::TouristAppV3.viewmodel.VikingViewModel(); }
+        private object Activate_28_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.viking>(); }
+        private object Activate_29_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.viking>(); }
+        private object Activate_30_viking() { return new global::TouristAppV3.model.viking(); }
+        private object Activate_31_VikingView() { return new global::TouristAppV3.view.VikingView(); }
         private void VectorAdd_2_ObservableCollection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.Route>)instance;
-            var newItem = (global::TouristAppV3.model.Route)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.AddModel>)instance;
+            var newItem = (global::TouristAppV3.model.AddModel)item;
             collection.Add(newItem);
         }
         private void VectorAdd_3_Collection(object instance, object item)
         {
+            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.AddModel>)instance;
+            var newItem = (global::TouristAppV3.model.AddModel)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_10_ObservableCollection(object instance, object item)
+        {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.Route>)instance;
             var newItem = (global::TouristAppV3.model.Route)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_11_ObservableCollection(object instance, object item)
+        private void VectorAdd_11_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.Route>)instance;
+            var newItem = (global::TouristAppV3.model.Route)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_16_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.HotelModel>)instance;
             var newItem = (global::TouristAppV3.model.HotelModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_12_Collection(object instance, object item)
+        private void VectorAdd_17_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.HotelModel>)instance;
             var newItem = (global::TouristAppV3.model.HotelModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_19_ObservableCollection(object instance, object item)
+        private void VectorAdd_24_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.RestaurantModel>)instance;
             var newItem = (global::TouristAppV3.model.RestaurantModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_20_Collection(object instance, object item)
+        private void VectorAdd_25_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.RestaurantModel>)instance;
             var newItem = (global::TouristAppV3.model.RestaurantModel)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_28_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.viking>)instance;
+            var newItem = (global::TouristAppV3.model.viking)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_29_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.viking>)instance;
+            var newItem = (global::TouristAppV3.model.viking)item;
             collection.Add(newItem);
         }
 
@@ -272,11 +323,11 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  TouristAppV3.viewmodel.ExerciseViewModel
+            case 0:   //  TouristAppV3.viewmodel.AddViewModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_0_ExerciseViewModel;
-                userType.AddMemberName("Routes");
-                userType.AddMemberName("MyRoute");
+                userType.Activator = Activate_0_AddViewModel;
+                userType.AddMemberName("Information");
+                userType.AddMemberName("selectedInformation");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -285,26 +336,26 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.Route>
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.model.Route>"));
+            case 2:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.AddModel>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.model.AddModel>"));
                 userType.CollectionAdd = VectorAdd_2_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 3:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.Route>
+            case 3:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.AddModel>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_3_Collection;
                 userType.CollectionAdd = VectorAdd_3_Collection;
                 xamlType = userType;
                 break;
 
-            case 4:   //  TouristAppV3.model.Route
+            case 4:   //  TouristAppV3.model.AddModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_4_Route;
-                userType.AddMemberName("Name");
-                userType.AddMemberName("ImageUrl");
-                userType.AddMemberName("Description");
+                userType.Activator = Activate_4_AddModel;
+                userType.AddMemberName("name");
+                userType.AddMemberName("Image");
+                userType.AddMemberName("Information");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -313,9 +364,9 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  TouristAppV3.ExerciseDetailPage
+            case 6:   //  TouristAppV3.view.AdditionalView
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_ExerciseDetailPage;
+                userType.Activator = Activate_6_AdditionalView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -328,18 +379,58 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  TouristAppV3.viewmodel.HotelViewModel
+            case 9:   //  TouristAppV3.viewmodel.ExerciseViewModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_9_HotelViewModel;
+                userType.Activator = Activate_9_ExerciseViewModel;
+                userType.AddMemberName("Routes");
+                userType.AddMemberName("MyRoute");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.Route>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.model.Route>"));
+                userType.CollectionAdd = VectorAdd_10_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 11:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.Route>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_11_Collection;
+                userType.CollectionAdd = VectorAdd_11_Collection;
+                xamlType = userType;
+                break;
+
+            case 12:   //  TouristAppV3.model.Route
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_12_Route;
+                userType.AddMemberName("Name");
+                userType.AddMemberName("ImageUrl");
+                userType.AddMemberName("Description");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  TouristAppV3.ExerciseDetailPage
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_ExerciseDetailPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  TouristAppV3.viewmodel.HotelViewModel
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_14_HotelViewModel;
                 userType.AddMemberName("SelectedHotelModel");
                 userType.AddMemberName("Hotels");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  TouristAppV3.model.HotelModel
+            case 15:   //  TouristAppV3.model.HotelModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_10_HotelModel;
+                userType.Activator = Activate_15_HotelModel;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Stars");
                 userType.AddMemberName("Location");
@@ -350,57 +441,57 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 11:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.HotelModel>
+            case 16:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.HotelModel>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.model.HotelModel>"));
-                userType.CollectionAdd = VectorAdd_11_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_16_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 12:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.HotelModel>
+            case 17:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.HotelModel>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_12_Collection;
-                userType.CollectionAdd = VectorAdd_12_Collection;
+                userType.Activator = Activate_17_Collection;
+                userType.CollectionAdd = VectorAdd_17_Collection;
                 xamlType = userType;
                 break;
 
-            case 13:   //  Int32
+            case 18:   //  Int32
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 14:   //  TouristAppV3.view.HotelDetailPage
+            case 19:   //  TouristAppV3.view.HotelDetailPage
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_HotelDetailPage;
+                userType.Activator = Activate_19_HotelDetailPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  TouristAppV3.MainPage
+            case 20:   //  TouristAppV3.MainPage
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_MainPage;
+                userType.Activator = Activate_20_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  TouristAppV3.view.NatureDetailPage
+            case 21:   //  TouristAppV3.view.NatureDetailPage
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_NatureDetailPage;
+                userType.Activator = Activate_21_NatureDetailPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  TouristAppV3.viewmodel.RestaurantViewModel
+            case 22:   //  TouristAppV3.viewmodel.RestaurantViewModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_17_RestaurantViewModel;
+                userType.Activator = Activate_22_RestaurantViewModel;
                 userType.AddMemberName("SelectedRestaurantModel");
                 userType.AddMemberName("Restaurants");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 18:   //  TouristAppV3.model.RestaurantModel
+            case 23:   //  TouristAppV3.model.RestaurantModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_18_RestaurantModel;
+                userType.Activator = Activate_23_RestaurantModel;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Location");
                 userType.AddMemberName("Phonenumber");
@@ -410,30 +501,65 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 19:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.RestaurantModel>
+            case 24:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.RestaurantModel>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.model.RestaurantModel>"));
-                userType.CollectionAdd = VectorAdd_19_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_24_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 20:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.RestaurantModel>
+            case 25:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.RestaurantModel>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_20_Collection;
-                userType.CollectionAdd = VectorAdd_20_Collection;
+                userType.Activator = Activate_25_Collection;
+                userType.CollectionAdd = VectorAdd_25_Collection;
                 xamlType = userType;
                 break;
 
-            case 21:   //  TouristAppV3.view.RestaurantDetailPage
+            case 26:   //  TouristAppV3.view.RestaurantDetailPage
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_21_RestaurantDetailPage;
+                userType.Activator = Activate_26_RestaurantDetailPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  TouristAppV3.view.vikingDetailPage
+            case 27:   //  TouristAppV3.viewmodel.VikingViewModel
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_27_VikingViewModel;
+                userType.AddMemberName("Vikings");
+                userType.AddMemberName("SelectedViking");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 28:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.viking>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.model.viking>"));
+                userType.CollectionAdd = VectorAdd_28_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 29:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.viking>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_29_Collection;
+                userType.CollectionAdd = VectorAdd_29_Collection;
+                xamlType = userType;
+                break;
+
+            case 30:   //  TouristAppV3.model.viking
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_30_viking;
+                userType.AddMemberName("Name");
+                userType.AddMemberName("lenght");
+                userType.AddMemberName("material");
+                userType.AddMemberName("ImageUrl");
+                userType.AddMemberName("speed");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 31:   //  TouristAppV3.view.VikingView
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_22_vikingDetailPage;
+                userType.Activator = Activate_31_VikingView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -442,205 +568,325 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
         }
 
 
-        private object get_0_ExerciseViewModel_Routes(object instance)
+        private object get_0_AddViewModel_Information(object instance)
+        {
+            var that = (global::TouristAppV3.viewmodel.AddViewModel)instance;
+            return that.Information;
+        }
+        private void set_0_AddViewModel_Information(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.viewmodel.AddViewModel)instance;
+            that.Information = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.AddModel>)Value;
+        }
+        private object get_1_AddModel_name(object instance)
+        {
+            var that = (global::TouristAppV3.model.AddModel)instance;
+            return that.name;
+        }
+        private void set_1_AddModel_name(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.model.AddModel)instance;
+            that.name = (global::System.String)Value;
+        }
+        private object get_2_AddModel_Image(object instance)
+        {
+            var that = (global::TouristAppV3.model.AddModel)instance;
+            return that.Image;
+        }
+        private void set_2_AddModel_Image(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.model.AddModel)instance;
+            that.Image = (global::System.String)Value;
+        }
+        private object get_3_AddModel_Information(object instance)
+        {
+            var that = (global::TouristAppV3.model.AddModel)instance;
+            return that.Information;
+        }
+        private void set_3_AddModel_Information(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.model.AddModel)instance;
+            that.Information = (global::System.String)Value;
+        }
+        private object get_4_AddViewModel_selectedInformation(object instance)
+        {
+            var that = (global::TouristAppV3.viewmodel.AddViewModel)instance;
+            return that.selectedInformation;
+        }
+        private void set_4_AddViewModel_selectedInformation(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.viewmodel.AddViewModel)instance;
+            that.selectedInformation = (global::TouristAppV3.model.AddModel)Value;
+        }
+        private object get_5_ExerciseViewModel_Routes(object instance)
         {
             var that = (global::TouristAppV3.viewmodel.ExerciseViewModel)instance;
             return that.Routes;
         }
-        private void set_0_ExerciseViewModel_Routes(object instance, object Value)
+        private void set_5_ExerciseViewModel_Routes(object instance, object Value)
         {
             var that = (global::TouristAppV3.viewmodel.ExerciseViewModel)instance;
             that.Routes = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.Route>)Value;
         }
-        private object get_1_Route_Name(object instance)
+        private object get_6_Route_Name(object instance)
         {
             var that = (global::TouristAppV3.model.Route)instance;
             return that.Name;
         }
-        private void set_1_Route_Name(object instance, object Value)
+        private void set_6_Route_Name(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.Route)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_2_Route_ImageUrl(object instance)
+        private object get_7_Route_ImageUrl(object instance)
         {
             var that = (global::TouristAppV3.model.Route)instance;
             return that.ImageUrl;
         }
-        private void set_2_Route_ImageUrl(object instance, object Value)
+        private void set_7_Route_ImageUrl(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.Route)instance;
             that.ImageUrl = (global::System.String)Value;
         }
-        private object get_3_Route_Description(object instance)
+        private object get_8_Route_Description(object instance)
         {
             var that = (global::TouristAppV3.model.Route)instance;
             return that.Description;
         }
-        private void set_3_Route_Description(object instance, object Value)
+        private void set_8_Route_Description(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.Route)instance;
             that.Description = (global::System.String)Value;
         }
-        private object get_4_ExerciseViewModel_MyRoute(object instance)
+        private object get_9_ExerciseViewModel_MyRoute(object instance)
         {
             var that = (global::TouristAppV3.viewmodel.ExerciseViewModel)instance;
             return that.MyRoute;
         }
-        private void set_4_ExerciseViewModel_MyRoute(object instance, object Value)
+        private void set_9_ExerciseViewModel_MyRoute(object instance, object Value)
         {
             var that = (global::TouristAppV3.viewmodel.ExerciseViewModel)instance;
             that.MyRoute = (global::TouristAppV3.model.Route)Value;
         }
-        private object get_5_HotelViewModel_SelectedHotelModel(object instance)
+        private object get_10_HotelViewModel_SelectedHotelModel(object instance)
         {
             var that = (global::TouristAppV3.viewmodel.HotelViewModel)instance;
             return that.SelectedHotelModel;
         }
-        private void set_5_HotelViewModel_SelectedHotelModel(object instance, object Value)
+        private void set_10_HotelViewModel_SelectedHotelModel(object instance, object Value)
         {
             var that = (global::TouristAppV3.viewmodel.HotelViewModel)instance;
             that.SelectedHotelModel = (global::TouristAppV3.model.HotelModel)Value;
         }
-        private object get_6_HotelViewModel_Hotels(object instance)
+        private object get_11_HotelViewModel_Hotels(object instance)
         {
             var that = (global::TouristAppV3.viewmodel.HotelViewModel)instance;
             return that.Hotels;
         }
-        private void set_6_HotelViewModel_Hotels(object instance, object Value)
+        private void set_11_HotelViewModel_Hotels(object instance, object Value)
         {
             var that = (global::TouristAppV3.viewmodel.HotelViewModel)instance;
             that.Hotels = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.HotelModel>)Value;
         }
-        private object get_7_HotelModel_Name(object instance)
+        private object get_12_HotelModel_Name(object instance)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             return that.Name;
         }
-        private void set_7_HotelModel_Name(object instance, object Value)
+        private void set_12_HotelModel_Name(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_8_HotelModel_Stars(object instance)
+        private object get_13_HotelModel_Stars(object instance)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             return that.Stars;
         }
-        private void set_8_HotelModel_Stars(object instance, object Value)
+        private void set_13_HotelModel_Stars(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             that.Stars = (global::System.Int32)Value;
         }
-        private object get_9_HotelModel_Location(object instance)
+        private object get_14_HotelModel_Location(object instance)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             return that.Location;
         }
-        private void set_9_HotelModel_Location(object instance, object Value)
+        private void set_14_HotelModel_Location(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             that.Location = (global::System.String)Value;
         }
-        private object get_10_HotelModel_Phonenumber(object instance)
+        private object get_15_HotelModel_Phonenumber(object instance)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             return that.Phonenumber;
         }
-        private void set_10_HotelModel_Phonenumber(object instance, object Value)
+        private void set_15_HotelModel_Phonenumber(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             that.Phonenumber = (global::System.String)Value;
         }
-        private object get_11_HotelModel_ImageUrl(object instance)
+        private object get_16_HotelModel_ImageUrl(object instance)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             return that.ImageUrl;
         }
-        private void set_11_HotelModel_ImageUrl(object instance, object Value)
+        private void set_16_HotelModel_ImageUrl(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             that.ImageUrl = (global::System.String)Value;
         }
-        private object get_12_HotelModel_Description(object instance)
+        private object get_17_HotelModel_Description(object instance)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             return that.Description;
         }
-        private void set_12_HotelModel_Description(object instance, object Value)
+        private void set_17_HotelModel_Description(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.HotelModel)instance;
             that.Description = (global::System.String)Value;
         }
-        private object get_13_RestaurantViewModel_SelectedRestaurantModel(object instance)
+        private object get_18_RestaurantViewModel_SelectedRestaurantModel(object instance)
         {
             var that = (global::TouristAppV3.viewmodel.RestaurantViewModel)instance;
             return that.SelectedRestaurantModel;
         }
-        private void set_13_RestaurantViewModel_SelectedRestaurantModel(object instance, object Value)
+        private void set_18_RestaurantViewModel_SelectedRestaurantModel(object instance, object Value)
         {
             var that = (global::TouristAppV3.viewmodel.RestaurantViewModel)instance;
             that.SelectedRestaurantModel = (global::TouristAppV3.model.RestaurantModel)Value;
         }
-        private object get_14_RestaurantViewModel_Restaurants(object instance)
+        private object get_19_RestaurantViewModel_Restaurants(object instance)
         {
             var that = (global::TouristAppV3.viewmodel.RestaurantViewModel)instance;
             return that.Restaurants;
         }
-        private void set_14_RestaurantViewModel_Restaurants(object instance, object Value)
+        private void set_19_RestaurantViewModel_Restaurants(object instance, object Value)
         {
             var that = (global::TouristAppV3.viewmodel.RestaurantViewModel)instance;
             that.Restaurants = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.RestaurantModel>)Value;
         }
-        private object get_15_RestaurantModel_Name(object instance)
+        private object get_20_RestaurantModel_Name(object instance)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             return that.Name;
         }
-        private void set_15_RestaurantModel_Name(object instance, object Value)
+        private void set_20_RestaurantModel_Name(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_16_RestaurantModel_Location(object instance)
+        private object get_21_RestaurantModel_Location(object instance)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             return that.Location;
         }
-        private void set_16_RestaurantModel_Location(object instance, object Value)
+        private void set_21_RestaurantModel_Location(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             that.Location = (global::System.String)Value;
         }
-        private object get_17_RestaurantModel_Phonenumber(object instance)
+        private object get_22_RestaurantModel_Phonenumber(object instance)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             return that.Phonenumber;
         }
-        private void set_17_RestaurantModel_Phonenumber(object instance, object Value)
+        private void set_22_RestaurantModel_Phonenumber(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             that.Phonenumber = (global::System.String)Value;
         }
-        private object get_18_RestaurantModel_ImageUrl(object instance)
+        private object get_23_RestaurantModel_ImageUrl(object instance)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             return that.ImageUrl;
         }
-        private void set_18_RestaurantModel_ImageUrl(object instance, object Value)
+        private void set_23_RestaurantModel_ImageUrl(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             that.ImageUrl = (global::System.String)Value;
         }
-        private object get_19_RestaurantModel_Description(object instance)
+        private object get_24_RestaurantModel_Description(object instance)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             return that.Description;
         }
-        private void set_19_RestaurantModel_Description(object instance, object Value)
+        private void set_24_RestaurantModel_Description(object instance, object Value)
         {
             var that = (global::TouristAppV3.model.RestaurantModel)instance;
             that.Description = (global::System.String)Value;
+        }
+        private object get_25_VikingViewModel_Vikings(object instance)
+        {
+            var that = (global::TouristAppV3.viewmodel.VikingViewModel)instance;
+            return that.Vikings;
+        }
+        private void set_25_VikingViewModel_Vikings(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.viewmodel.VikingViewModel)instance;
+            that.Vikings = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.viking>)Value;
+        }
+        private object get_26_viking_Name(object instance)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            return that.Name;
+        }
+        private void set_26_viking_Name(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_27_viking_lenght(object instance)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            return that.lenght;
+        }
+        private void set_27_viking_lenght(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            that.lenght = (global::System.Int32)Value;
+        }
+        private object get_28_viking_material(object instance)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            return that.material;
+        }
+        private void set_28_viking_material(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            that.material = (global::System.String)Value;
+        }
+        private object get_29_viking_ImageUrl(object instance)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            return that.ImageUrl;
+        }
+        private void set_29_viking_ImageUrl(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            that.ImageUrl = (global::System.String)Value;
+        }
+        private object get_30_viking_speed(object instance)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            return that.speed;
+        }
+        private void set_30_viking_speed(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.model.viking)instance;
+            that.speed = (global::System.Int32)Value;
+        }
+        private object get_31_VikingViewModel_SelectedViking(object instance)
+        {
+            var that = (global::TouristAppV3.viewmodel.VikingViewModel)instance;
+            return that.SelectedViking;
+        }
+        private void set_31_VikingViewModel_SelectedViking(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.viewmodel.VikingViewModel)instance;
+            that.SelectedViking = (global::TouristAppV3.model.viking)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -650,125 +896,197 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
 
             switch (longMemberName)
             {
+            case "TouristAppV3.viewmodel.AddViewModel.Information":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.AddViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Information", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.AddModel>");
+                xamlMember.Getter = get_0_AddViewModel_Information;
+                xamlMember.Setter = set_0_AddViewModel_Information;
+                break;
+            case "TouristAppV3.model.AddModel.name":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.AddModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "name", "String");
+                xamlMember.Getter = get_1_AddModel_name;
+                xamlMember.Setter = set_1_AddModel_name;
+                break;
+            case "TouristAppV3.model.AddModel.Image":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.AddModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Image", "String");
+                xamlMember.Getter = get_2_AddModel_Image;
+                xamlMember.Setter = set_2_AddModel_Image;
+                break;
+            case "TouristAppV3.model.AddModel.Information":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.AddModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Information", "String");
+                xamlMember.Getter = get_3_AddModel_Information;
+                xamlMember.Setter = set_3_AddModel_Information;
+                break;
+            case "TouristAppV3.viewmodel.AddViewModel.selectedInformation":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.AddViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "selectedInformation", "TouristAppV3.model.AddModel");
+                xamlMember.Getter = get_4_AddViewModel_selectedInformation;
+                xamlMember.Setter = set_4_AddViewModel_selectedInformation;
+                break;
             case "TouristAppV3.viewmodel.ExerciseViewModel.Routes":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.ExerciseViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Routes", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.Route>");
-                xamlMember.Getter = get_0_ExerciseViewModel_Routes;
-                xamlMember.Setter = set_0_ExerciseViewModel_Routes;
+                xamlMember.Getter = get_5_ExerciseViewModel_Routes;
+                xamlMember.Setter = set_5_ExerciseViewModel_Routes;
                 break;
             case "TouristAppV3.model.Route.Name":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.Route");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_1_Route_Name;
-                xamlMember.Setter = set_1_Route_Name;
+                xamlMember.Getter = get_6_Route_Name;
+                xamlMember.Setter = set_6_Route_Name;
                 break;
             case "TouristAppV3.model.Route.ImageUrl":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.Route");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ImageUrl", "String");
-                xamlMember.Getter = get_2_Route_ImageUrl;
-                xamlMember.Setter = set_2_Route_ImageUrl;
+                xamlMember.Getter = get_7_Route_ImageUrl;
+                xamlMember.Setter = set_7_Route_ImageUrl;
                 break;
             case "TouristAppV3.model.Route.Description":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.Route");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Description", "String");
-                xamlMember.Getter = get_3_Route_Description;
-                xamlMember.Setter = set_3_Route_Description;
+                xamlMember.Getter = get_8_Route_Description;
+                xamlMember.Setter = set_8_Route_Description;
                 break;
             case "TouristAppV3.viewmodel.ExerciseViewModel.MyRoute":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.ExerciseViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "MyRoute", "TouristAppV3.model.Route");
-                xamlMember.Getter = get_4_ExerciseViewModel_MyRoute;
-                xamlMember.Setter = set_4_ExerciseViewModel_MyRoute;
+                xamlMember.Getter = get_9_ExerciseViewModel_MyRoute;
+                xamlMember.Setter = set_9_ExerciseViewModel_MyRoute;
                 break;
             case "TouristAppV3.viewmodel.HotelViewModel.SelectedHotelModel":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.HotelViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedHotelModel", "TouristAppV3.model.HotelModel");
-                xamlMember.Getter = get_5_HotelViewModel_SelectedHotelModel;
-                xamlMember.Setter = set_5_HotelViewModel_SelectedHotelModel;
+                xamlMember.Getter = get_10_HotelViewModel_SelectedHotelModel;
+                xamlMember.Setter = set_10_HotelViewModel_SelectedHotelModel;
                 break;
             case "TouristAppV3.viewmodel.HotelViewModel.Hotels":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.HotelViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Hotels", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.HotelModel>");
-                xamlMember.Getter = get_6_HotelViewModel_Hotels;
-                xamlMember.Setter = set_6_HotelViewModel_Hotels;
+                xamlMember.Getter = get_11_HotelViewModel_Hotels;
+                xamlMember.Setter = set_11_HotelViewModel_Hotels;
                 break;
             case "TouristAppV3.model.HotelModel.Name":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.HotelModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_7_HotelModel_Name;
-                xamlMember.Setter = set_7_HotelModel_Name;
+                xamlMember.Getter = get_12_HotelModel_Name;
+                xamlMember.Setter = set_12_HotelModel_Name;
                 break;
             case "TouristAppV3.model.HotelModel.Stars":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.HotelModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Stars", "Int32");
-                xamlMember.Getter = get_8_HotelModel_Stars;
-                xamlMember.Setter = set_8_HotelModel_Stars;
+                xamlMember.Getter = get_13_HotelModel_Stars;
+                xamlMember.Setter = set_13_HotelModel_Stars;
                 break;
             case "TouristAppV3.model.HotelModel.Location":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.HotelModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Location", "String");
-                xamlMember.Getter = get_9_HotelModel_Location;
-                xamlMember.Setter = set_9_HotelModel_Location;
+                xamlMember.Getter = get_14_HotelModel_Location;
+                xamlMember.Setter = set_14_HotelModel_Location;
                 break;
             case "TouristAppV3.model.HotelModel.Phonenumber":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.HotelModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Phonenumber", "String");
-                xamlMember.Getter = get_10_HotelModel_Phonenumber;
-                xamlMember.Setter = set_10_HotelModel_Phonenumber;
+                xamlMember.Getter = get_15_HotelModel_Phonenumber;
+                xamlMember.Setter = set_15_HotelModel_Phonenumber;
                 break;
             case "TouristAppV3.model.HotelModel.ImageUrl":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.HotelModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ImageUrl", "String");
-                xamlMember.Getter = get_11_HotelModel_ImageUrl;
-                xamlMember.Setter = set_11_HotelModel_ImageUrl;
+                xamlMember.Getter = get_16_HotelModel_ImageUrl;
+                xamlMember.Setter = set_16_HotelModel_ImageUrl;
                 break;
             case "TouristAppV3.model.HotelModel.Description":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.HotelModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Description", "String");
-                xamlMember.Getter = get_12_HotelModel_Description;
-                xamlMember.Setter = set_12_HotelModel_Description;
+                xamlMember.Getter = get_17_HotelModel_Description;
+                xamlMember.Setter = set_17_HotelModel_Description;
                 break;
             case "TouristAppV3.viewmodel.RestaurantViewModel.SelectedRestaurantModel":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.RestaurantViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedRestaurantModel", "TouristAppV3.model.RestaurantModel");
-                xamlMember.Getter = get_13_RestaurantViewModel_SelectedRestaurantModel;
-                xamlMember.Setter = set_13_RestaurantViewModel_SelectedRestaurantModel;
+                xamlMember.Getter = get_18_RestaurantViewModel_SelectedRestaurantModel;
+                xamlMember.Setter = set_18_RestaurantViewModel_SelectedRestaurantModel;
                 break;
             case "TouristAppV3.viewmodel.RestaurantViewModel.Restaurants":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.RestaurantViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Restaurants", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.RestaurantModel>");
-                xamlMember.Getter = get_14_RestaurantViewModel_Restaurants;
-                xamlMember.Setter = set_14_RestaurantViewModel_Restaurants;
+                xamlMember.Getter = get_19_RestaurantViewModel_Restaurants;
+                xamlMember.Setter = set_19_RestaurantViewModel_Restaurants;
                 break;
             case "TouristAppV3.model.RestaurantModel.Name":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.RestaurantModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_15_RestaurantModel_Name;
-                xamlMember.Setter = set_15_RestaurantModel_Name;
+                xamlMember.Getter = get_20_RestaurantModel_Name;
+                xamlMember.Setter = set_20_RestaurantModel_Name;
                 break;
             case "TouristAppV3.model.RestaurantModel.Location":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.RestaurantModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Location", "String");
-                xamlMember.Getter = get_16_RestaurantModel_Location;
-                xamlMember.Setter = set_16_RestaurantModel_Location;
+                xamlMember.Getter = get_21_RestaurantModel_Location;
+                xamlMember.Setter = set_21_RestaurantModel_Location;
                 break;
             case "TouristAppV3.model.RestaurantModel.Phonenumber":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.RestaurantModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Phonenumber", "String");
-                xamlMember.Getter = get_17_RestaurantModel_Phonenumber;
-                xamlMember.Setter = set_17_RestaurantModel_Phonenumber;
+                xamlMember.Getter = get_22_RestaurantModel_Phonenumber;
+                xamlMember.Setter = set_22_RestaurantModel_Phonenumber;
                 break;
             case "TouristAppV3.model.RestaurantModel.ImageUrl":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.RestaurantModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ImageUrl", "String");
-                xamlMember.Getter = get_18_RestaurantModel_ImageUrl;
-                xamlMember.Setter = set_18_RestaurantModel_ImageUrl;
+                xamlMember.Getter = get_23_RestaurantModel_ImageUrl;
+                xamlMember.Setter = set_23_RestaurantModel_ImageUrl;
                 break;
             case "TouristAppV3.model.RestaurantModel.Description":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.RestaurantModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Description", "String");
-                xamlMember.Getter = get_19_RestaurantModel_Description;
-                xamlMember.Setter = set_19_RestaurantModel_Description;
+                xamlMember.Getter = get_24_RestaurantModel_Description;
+                xamlMember.Setter = set_24_RestaurantModel_Description;
+                break;
+            case "TouristAppV3.viewmodel.VikingViewModel.Vikings":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.VikingViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Vikings", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.viking>");
+                xamlMember.Getter = get_25_VikingViewModel_Vikings;
+                xamlMember.Setter = set_25_VikingViewModel_Vikings;
+                break;
+            case "TouristAppV3.model.viking.Name":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.viking");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_26_viking_Name;
+                xamlMember.Setter = set_26_viking_Name;
+                break;
+            case "TouristAppV3.model.viking.lenght":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.viking");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "lenght", "Int32");
+                xamlMember.Getter = get_27_viking_lenght;
+                xamlMember.Setter = set_27_viking_lenght;
+                break;
+            case "TouristAppV3.model.viking.material":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.viking");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "material", "String");
+                xamlMember.Getter = get_28_viking_material;
+                xamlMember.Setter = set_28_viking_material;
+                break;
+            case "TouristAppV3.model.viking.ImageUrl":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.viking");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ImageUrl", "String");
+                xamlMember.Getter = get_29_viking_ImageUrl;
+                xamlMember.Setter = set_29_viking_ImageUrl;
+                break;
+            case "TouristAppV3.model.viking.speed":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.model.viking");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "speed", "Int32");
+                xamlMember.Getter = get_30_viking_speed;
+                xamlMember.Setter = set_30_viking_speed;
+                break;
+            case "TouristAppV3.viewmodel.VikingViewModel.SelectedViking":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.viewmodel.VikingViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedViking", "TouristAppV3.model.viking");
+                xamlMember.Getter = get_31_VikingViewModel_SelectedViking;
+                xamlMember.Setter = set_31_VikingViewModel_SelectedViking;
                 break;
             }
             return xamlMember;

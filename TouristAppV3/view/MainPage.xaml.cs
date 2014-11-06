@@ -52,7 +52,7 @@ namespace TouristAppV3
 
         private void MuseumButton_OnClickButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(vikingDetailPage));
+            this.Frame.Navigate(typeof(VikingView));
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
@@ -67,7 +67,7 @@ namespace TouristAppV3
 
         private void Viking_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(vikingDetailPage));
+            this.Frame.Navigate(typeof(VikingView));
         }
 
         private void Restaurants_Click(object sender, RoutedEventArgs e)

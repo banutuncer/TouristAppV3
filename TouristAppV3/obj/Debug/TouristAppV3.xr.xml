@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="selectedInformation" />
+    <RootPropertyPathName Name="Information" />
+    <RootPropertyPathName Name="Image" />
     <RootPropertyPathName Name="MyRoute" />
     <RootPropertyPathName Name="ImageUrl" />
     <RootPropertyPathName Name="Routes" />
@@ -13,6 +16,11 @@
     <RootPropertyPathName Name="Hotels" />
     <RootPropertyPathName Name="SelectedRestaurantModel" />
     <RootPropertyPathName Name="Restaurants" />
+    <RootPropertyPathName Name="SelectedViking" />
+    <RootPropertyPathName Name="lenght" />
+    <RootPropertyPathName Name="material" />
+    <RootPropertyPathName Name="speed" />
+    <RootPropertyPathName Name="Vikings" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -29,23 +37,26 @@
       <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
-      <RootProperty Name="ImageSource" />
       <RootProperty Name="Stretch" />
+      <RootProperty Name="ImageSource" />
     </RootType>
-    <RootType FullName="TouristAppV3.viewmodel.ExerciseViewModel" />
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+    <RootType FullName="TouristAppV3.viewmodel.AddViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Foreground" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="FontStyle" />
-      <RootProperty Name="Style" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="BorderBrush" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
@@ -59,27 +70,32 @@
       <RootProperty Name="Stretch" />
       <RootProperty Name="DataContext" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="SelectedItem" />
-      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="FontStyle" />
-      <RootProperty Name="ItemTemplate" />
-      <RootProperty Name="DataContext" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="SelectionHighlightColor" />
+      <RootProperty Name="RenderTransformOrigin" />
       <RootEvent Name="SelectionChanged" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
-      <RootMethod Name="GetToolTip" />
-      <RootMethod Name="SetToolTip" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="TouristAppV3.view.AdditionalView" />
+    <RootType FullName="TouristAppV3.viewmodel.ExerciseViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
@@ -115,6 +131,9 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Background" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="TouristAppV3.MainPage" />
@@ -122,6 +141,7 @@
     <RootType FullName="TouristAppV3.view.NatureDetailPage" />
     <RootType FullName="TouristAppV3.viewmodel.RestaurantViewModel" />
     <RootType FullName="TouristAppV3.view.RestaurantDetailPage" />
-    <RootType FullName="TouristAppV3.view.vikingDetailPage" />
+    <RootType FullName="TouristAppV3.viewmodel.VikingViewModel" />
+    <RootType FullName="TouristAppV3.view.VikingView" />
   </Roots.RootTypes>
 </Roots>
