@@ -48,8 +48,6 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Roskilde_University_10.jpg"/>
         </Grid.Background>
-        <Image HorizontalAlignment="Left" Height="260" Margin="797,43,0,0" VerticalAlignment="Top" Width="394"/>
-        <TextBlock HorizontalAlignment="Left" Margin="835,395,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="258" FontSize="36" Text="Description"/>
         <TextBlock HorizontalAlignment="Left" Margin="210,60,0,0" TextWrapping="Wrap" Text="TravelGuide" VerticalAlignment="Top" Height="98" Width="511" FontSize="72"/>
         <Button x:ConnectionId='6' x:Name="NatureButton" Content="Nature" HorizontalAlignment="Left" Margin="184,429,0,0" VerticalAlignment="Top" FontSize="18"                                         />
         <Button x:ConnectionId='7' x:Name="RestaurantButton" Content="Restaurants" HorizontalAlignment="Left" Margin="184,308,0,0" VerticalAlignment="Top" FontSize="18"                                       />

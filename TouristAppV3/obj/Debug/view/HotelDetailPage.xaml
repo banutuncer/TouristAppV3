@@ -16,7 +16,7 @@
         <Grid.DataContext>
             <viewmodel:HotelViewModel/>
         </Grid.DataContext>
-        <ListView HorizontalAlignment="Left" Height="447" VerticalAlignment="Top" Width="302" Margin="10,157,0,0" ItemsSource="{Binding Hotels}" SelectedItem="{Binding SelectedHotelModel}"/>
+        <ListView HorizontalAlignment="Left" Height="447" VerticalAlignment="Top" Width="302" Margin="10,157,0,0" ItemsSource="{Binding Hotels[0], Mode=TwoWay}"/>
         <TextBlock HorizontalAlignment="Left" Margin="15,38,0,0" TextWrapping="Wrap" Text="Hotels" VerticalAlignment="Top" Height="114" Width="204" FontSize="49"/>
         <Image HorizontalAlignment="Left" Height="218" Margin="512,55,0,0" VerticalAlignment="Top" Width="476" Source="{Binding SelectedHotelModel.ImageUrl, Mode=TwoWay}"/>
         <TextBlock x:Name="HotelNameBlock" HorizontalAlignment="Left" Margin="536,445,0,0" TextWrapping="Wrap" Text="{Binding SelectedHotelModel.Name, Mode=TwoWay}" VerticalAlignment="Top" Height="35" Width="203"/>

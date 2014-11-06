@@ -43,6 +43,21 @@
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Roskilde_University_10.jpg">
       <PackagePath>Assets\Roskilde_University_10.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\background.jpg">
+      <PackagePath>Assets\Running\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\map1.jpg">
+      <PackagePath>Assets\Running\map1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\map2.jpg">
+      <PackagePath>Assets\Running\map2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\map3.jpg">
+      <PackagePath>Assets\Running\map3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Running\map4.jpg">
+      <PackagePath>Assets\Running\map4.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

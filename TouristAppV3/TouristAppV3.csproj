@@ -110,6 +110,8 @@
     </Compile>
     <Compile Include="model\HotelModel.cs" />
     <Compile Include="model\RestaurantModel.cs" />
+    <Compile Include="model\Route.cs" />
+    <Compile Include="viewmodel\ExerciseViewModel.cs" />
     <Compile Include="viewmodel\HotelViewModel.cs" />
     <Compile Include="viewmodel\RestaurantViewModel.cs" />
     <Compile Include="view\ExerciseDetailPage.xaml.cs">
@@ -148,6 +150,11 @@
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\Restaurants\RestaurantsBackground.jpg" />
     <Content Include="Assets\Roskilde_University_10.jpg" />
+    <Content Include="Assets\Running\background.jpg" />
+    <Content Include="Assets\Running\map1.jpg" />
+    <Content Include="Assets\Running\map2.jpg" />
+    <Content Include="Assets\Running\map3.jpg" />
+    <Content Include="Assets\Running\map4.jpg" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
