@@ -54,5 +54,30 @@ namespace TouristAppV3
         {
             this.Frame.Navigate(typeof(vikingDetailPage));
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Exercise_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ExerciseDetailPage));
+        }
+
+        private void Viking_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(vikingDetailPage));
+        }
+
+        private void Restaurants_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(RestaurantDetailPage));
+        }
+
+        private void Hotels_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HotelDetailPage));
+        }
     }
 }

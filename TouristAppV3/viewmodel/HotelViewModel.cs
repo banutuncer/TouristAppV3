@@ -13,7 +13,7 @@ namespace TouristAppV3.viewmodel
     class HotelViewModel : INotifyPropertyChanged
     {
         private HotelModel _selectedHotelModel;
-        private ObservableCollection<HotelModel> _hotels;
+        public ObservableCollection<HotelModel> _hotels;
 
         public HotelViewModel()
         {

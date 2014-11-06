@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Hotels\ScandicHotel.jpg">
       <PackagePath>Assets\Hotels\ScandicHotel.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Restaurants\RestaurantsBackground.jpg">
+      <PackagePath>Assets\Restaurants\RestaurantsBackground.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Roskilde_University_10.jpg">
       <PackagePath>Assets\Roskilde_University_10.jpg</PackagePath>
     </AppxPackagedFile>

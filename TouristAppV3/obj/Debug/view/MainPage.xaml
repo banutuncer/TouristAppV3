@@ -7,6 +7,43 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:ConnectionId='1' x:Name="Hotels" Label="Hotels"                       >
+                <AppBarButton.Icon>
+                    <FontIcon Glyph="H"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='2' x:Name="Restaurants" Label="Restaurants"                            >
+                <AppBarButton.Icon>
+                    <FontIcon Glyph="R"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='3' x:Name="Viking" Label="VikingMuseum"                     >
+                <AppBarButton.Icon>
+                    <FontIcon Glyph="V"/>
+                </AppBarButton.Icon>
+                <AppBar>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Horizontal"/>
+                        <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
+                    </Grid>
+                </AppBar>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='4' x:Name="Exercise" Label="Excercise"                       >
+                <AppBarButton.Icon>
+                    <FontIcon Glyph="E"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='5' x:Name="Home" Icon="Home" Label="Home"                   />
+            <!-- CommandBar content -->
+        </CommandBar>
+    </Page.BottomAppBar>
+    
     <Grid x:Name="Grid">
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Roskilde_University_10.jpg"/>
@@ -14,11 +51,11 @@
         <Image HorizontalAlignment="Left" Height="260" Margin="797,43,0,0" VerticalAlignment="Top" Width="394"/>
         <TextBlock HorizontalAlignment="Left" Margin="835,395,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="258" FontSize="36" Text="Description"/>
         <TextBlock HorizontalAlignment="Left" Margin="210,60,0,0" TextWrapping="Wrap" Text="TravelGuide" VerticalAlignment="Top" Height="98" Width="511" FontSize="72"/>
-        <Button x:ConnectionId='1' x:Name="NatureButton" Content="Nature" HorizontalAlignment="Left" Margin="184,429,0,0" VerticalAlignment="Top" FontSize="18"                                         />
-        <Button x:ConnectionId='2' x:Name="RestaurantButton" Content="Restaurants" HorizontalAlignment="Left" Margin="184,308,0,0" VerticalAlignment="Top" FontSize="18"                                       />
-        <Button x:ConnectionId='3' x:Name="ExerciseButton" Content="Exercise" HorizontalAlignment="Left" Margin="184,370,0,0" VerticalAlignment="Top" FontSize="20"                                             />
-        <Button x:ConnectionId='4' x:Name="HotelButton" Content="Hotels" HorizontalAlignment="Left" Margin="184,248,0,0" VerticalAlignment="Top" FontSize="18"                                        />
-        <Button x:ConnectionId='5' x:Name="MuseumButton" Content="Museum" HorizontalAlignment="Left" Margin="184,190,0,0" VerticalAlignment="Top" FontSize="18"                                         />
+        <Button x:ConnectionId='6' x:Name="NatureButton" Content="Nature" HorizontalAlignment="Left" Margin="184,429,0,0" VerticalAlignment="Top" FontSize="18"                                         />
+        <Button x:ConnectionId='7' x:Name="RestaurantButton" Content="Restaurants" HorizontalAlignment="Left" Margin="184,308,0,0" VerticalAlignment="Top" FontSize="18"                                       />
+        <Button x:ConnectionId='8' x:Name="ExerciseButton" Content="Exercise" HorizontalAlignment="Left" Margin="184,370,0,0" VerticalAlignment="Top" FontSize="20"                                             />
+        <Button x:ConnectionId='9' x:Name="HotelButton" Content="Hotels" HorizontalAlignment="Left" Margin="184,248,0,0" VerticalAlignment="Top" FontSize="18"                                        />
+        <Button x:ConnectionId='10' x:Name="MuseumButton" Content="Museum" HorizontalAlignment="Left" Margin="184,190,0,0" VerticalAlignment="Top" FontSize="18"                                         />
     </Grid>
 </Page>
 

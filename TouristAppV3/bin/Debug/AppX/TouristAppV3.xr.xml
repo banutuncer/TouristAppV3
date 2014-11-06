@@ -9,16 +9,22 @@
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="ImageUrl" />
     <RootPropertyPathName Name="Hotels" />
+    <RootPropertyPathName Name="SelectedRestaurantModel" />
+    <RootPropertyPathName Name="Restaurants" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
+      <RootProperty Name="BottomAppBar" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="DataContext" />
       <RootProperty Name="Children" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="TouristAppV3.ExerciseDetailPage" />
@@ -35,6 +41,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="SelectedItem" />
+      <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
@@ -53,11 +60,32 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Source" />
+      <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="TouristAppV3.view.HotelDetailPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Label" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
+      <RootProperty Name="Glyph" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
@@ -68,6 +96,7 @@
     </RootType>
     <RootType FullName="TouristAppV3.MainPage" />
     <RootType FullName="TouristAppV3.view.NatureDetailPage" />
+    <RootType FullName="TouristAppV3.viewmodel.RestaurantViewModel" />
     <RootType FullName="TouristAppV3.view.RestaurantDetailPage" />
     <RootType FullName="TouristAppV3.view.vikingDetailPage" />
   </Roots.RootTypes>

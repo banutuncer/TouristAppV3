@@ -7,8 +7,9 @@
     xmlns:viewmodel="using:TouristAppV3.viewmodel"
     x:Class="TouristAppV3.view.HotelDetailPage"
     mc:Ignorable="d">
+    
 
-    <Grid>
+                    <Grid>
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Hotels/HotelBackground.jpg"/>
         </Grid.Background>
