@@ -26,5 +26,6 @@ namespace TouristAppV3.view
         {
             this.InitializeComponent();
         }
+        
     }
 }

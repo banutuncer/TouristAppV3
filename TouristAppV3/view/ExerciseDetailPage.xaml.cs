@@ -26,5 +26,16 @@ namespace TouristAppV3
         {
             this.InitializeComponent();
         }
-    }
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+
+        private void TextBlock_OnSelectionChanged(object sender, RoutedEventArgs e)
+        {
+            
+        }
+    }   
+
 }
