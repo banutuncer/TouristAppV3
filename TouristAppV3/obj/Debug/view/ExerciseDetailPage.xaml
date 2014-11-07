@@ -30,8 +30,6 @@
                 </AppBarButton.Icon>
             </AppBarButton>
             <AppBarButton x:ConnectionId='3' x:Name="Home" Icon="Home" Label="Home"                   />
-            <AppBarSeparator/>
-            <AppBarButton Icon="Comment" Label="Help The Developers"/>
             <!-- CommandBar content -->
         </CommandBar>
     </Page.BottomAppBar>

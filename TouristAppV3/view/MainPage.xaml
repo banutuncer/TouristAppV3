@@ -21,7 +21,37 @@
             </AppBarButton>
             <AppBarButton x:Name="Home" Icon="Home" Label="Home" Click="Home_Click"/>
             <AppBarSeparator/>
-            <AppBarButton Icon="Comment" Label="Help The Developers"/>
+            <AppBarButton Label="New Background:      Smiley" Click="Smiley_Click">
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+                <AppBarButton Height="100" Icon="Accept" Label="AppBarButton" Width="100"/>
+            </AppBarButton>
+            <AppBarButton x:Name="Cow" Label="New Background:      Cow" Click="Cow_Click">
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+                <AppBar>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Horizontal"/>
+                        <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
+                    </Grid>
+                </AppBar>
+            </AppBarButton>
+            <AppBarButton x:Name="Daniel" Label="New Background:      Daniel" Click="Daniel_Click">
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:Name="Computer" Label="New Background:      Computer" Click="Computer_Click">
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+            </AppBarButton>
 
         </CommandBar>
     </Page.BottomAppBar>

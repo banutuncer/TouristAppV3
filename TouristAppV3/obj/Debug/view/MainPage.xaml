@@ -21,7 +21,37 @@
             </AppBarButton>
             <AppBarButton x:ConnectionId='3' x:Name="Home" Icon="Home" Label="Home"                   />
             <AppBarSeparator/>
-            <AppBarButton Icon="Comment" Label="Help The Developers"/>
+            <AppBarButton x:ConnectionId='4' Label="New Background:      Smiley"                     >
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+                <AppBarButton Height="100" Icon="Accept" Label="AppBarButton" Width="100"/>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='5' x:Name="Cow" Label="New Background:      Cow"                  >
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+                <AppBar>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Horizontal"/>
+                        <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
+                    </Grid>
+                </AppBar>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='6' x:Name="Daniel" Label="New Background:      Daniel"                     >
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='7' x:Name="Computer" Label="New Background:      Computer"                       >
+                <AppBarButton.Icon>
+                    <SymbolIcon/>
+                </AppBarButton.Icon>
+            </AppBarButton>
 
         </CommandBar>
     </Page.BottomAppBar>
@@ -35,14 +65,14 @@
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Roskilde_University_10.jpg"/>
         </Grid.Background>
         <TextBlock HorizontalAlignment="Left" Margin="210,60,0,0" TextWrapping="Wrap" Text="TravelGuide" VerticalAlignment="Top" Height="98" Width="511" FontSize="72"/>
-        <Button x:ConnectionId='4' x:Name="ExerciseButton" Content="Exercise" HorizontalAlignment="Left" Margin="117,300,0,0" VerticalAlignment="Top" FontSize="20"                                              Height="130" Width="247"/>
-        <Button x:ConnectionId='5' x:Name="MuseumButton" Content="Museum" HorizontalAlignment="Left" Margin="117,177,0,0" VerticalAlignment="Top" FontSize="18"                                          Height="124" Width="247"/>
+        <Button x:ConnectionId='8' x:Name="ExerciseButton" Content="Exercise" HorizontalAlignment="Left" Margin="117,300,0,0" VerticalAlignment="Top" FontSize="20"                                              Height="130" Width="247"/>
+        <Button x:ConnectionId='9' x:Name="MuseumButton" Content="Museum" HorizontalAlignment="Left" Margin="117,177,0,0" VerticalAlignment="Top" FontSize="18"                                          Height="124" Width="247"/>
         <Image x:Name="Image1" HorizontalAlignment="Left" Height="160" Margin="169,516,0,0" VerticalAlignment="Top" Width="175" Grid.RowSpan="2"/>
-        <Button x:ConnectionId='6' x:Name="Button1" Content="1*" HorizontalAlignment="Left" Margin="117,513,0,0" VerticalAlignment="Top"                       Width="55"/>
-        <Button x:ConnectionId='7' x:Name="Button2" Content="2*" HorizontalAlignment="Left" Margin="117,545,0,-1" VerticalAlignment="Top"                       Width="55"/>
-        <Button x:ConnectionId='8' x:Name="Button3" Content="3*" HorizontalAlignment="Left" Margin="117,577,0,0" VerticalAlignment="Top"                       Width="55" Grid.RowSpan="2"/>
-        <Button x:ConnectionId='9' x:Name="Button4" Content="4*" HorizontalAlignment="Left" Margin="117,27,0,0" VerticalAlignment="Top"                       Width="55" Grid.Row="1"/>
-        <Button x:ConnectionId='10' x:Name="Button5" Content="5*" HorizontalAlignment="Left" Margin="117,59,0,0" VerticalAlignment="Top"                       Width="55" Grid.Row="1"/>
+        <Button x:ConnectionId='10' x:Name="Button1" Content="1*" HorizontalAlignment="Left" Margin="117,513,0,0" VerticalAlignment="Top"                       Width="55"/>
+        <Button x:ConnectionId='11' x:Name="Button2" Content="2*" HorizontalAlignment="Left" Margin="117,545,0,-1" VerticalAlignment="Top"                       Width="55"/>
+        <Button x:ConnectionId='12' x:Name="Button3" Content="3*" HorizontalAlignment="Left" Margin="117,577,0,0" VerticalAlignment="Top"                       Width="55" Grid.RowSpan="2"/>
+        <Button x:ConnectionId='13' x:Name="Button4" Content="4*" HorizontalAlignment="Left" Margin="117,27,0,0" VerticalAlignment="Top"                       Width="55" Grid.Row="1"/>
+        <Button x:ConnectionId='14' x:Name="Button5" Content="5*" HorizontalAlignment="Left" Margin="117,59,0,0" VerticalAlignment="Top"                       Width="55" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" Margin="120,455,0,0" TextWrapping="Wrap" Text="Please Help Us, to help you!" VerticalAlignment="Top" Height="16" Width="142"/>
         <TextBlock HorizontalAlignment="Left" Margin="120,471,0,0" TextWrapping="Wrap" Text="Rate our app" VerticalAlignment="Top" Height="16" Width="142"/>
 

@@ -30,8 +30,7 @@
                 </AppBarButton.Icon>
             </AppBarButton>
             <AppBarButton x:ConnectionId='3' x:Name="Home" Icon="Home" Label="Home"                   />
-            <AppBarSeparator/>
-            <AppBarButton Icon="Comment" Label="Help The Developers"/>
+            
             <!-- CommandBar content -->
         </CommandBar>
     </Page.BottomAppBar>
@@ -46,7 +45,7 @@
         </Grid.DataContext>
         <ListView HorizontalAlignment="Left" Height="253" Margin="38,323,0,0" VerticalAlignment="Top" Width="201" ItemsSource="{Binding Vikings, Mode=TwoWay}" SelectedItem="{Binding SelectedViking, Mode=TwoWay}" FontSize="24" FontWeight="Bold" FontFamily="Arial Black" BorderBrush="#FFAE2424" Foreground="#FFE8CB12"/>
         <TextBlock HorizontalAlignment="Left" Margin="800,107,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="33" Width="102" FontSize="36" FontWeight="Bold" SelectionHighlightColor="#FFB42C17" Foreground="#FF44702E"/>
-        <Image HorizontalAlignment="Left" Height="277" Margin="244,109,0,0" VerticalAlignment="Top" Width="500" Source="{Binding SelectedViking.ImageUrl, Mode=TwoWay}"/>
+        <Image HorizontalAlignment="Left" Height="220" Margin="384,109,0,0" VerticalAlignment="Top" Width="360" Source="{Binding SelectedViking.ImageUrl, Mode=TwoWay}"/>
         <TextBlock HorizontalAlignment="Left" Margin="1010,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="49" Width="188" Text="{Binding SelectedViking.Name, Mode=TwoWay}" FontWeight="Bold" FontSize="36" FontFamily="Arial Black" Foreground="#FF5D9742" SelectionHighlightColor="#FF4414B4" RenderTransformOrigin="0.058,0.484"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Size" VerticalAlignment="Top" Foreground="#FF67BD3B"/>
         <TextBlock HorizontalAlignment="Left" Margin="800,188,0,0" TextWrapping="Wrap" Text="Speed" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="36" Width="117" Foreground="#FF467032" FontWeight="Bold"/>

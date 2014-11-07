@@ -124,7 +124,7 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[22];
+            _typeNameTable = new string[21];
             _typeNameTable[0] = "TouristAppV3.viewmodel.AddViewModel";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.AddModel>";
@@ -139,16 +139,15 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             _typeNameTable[11] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.Route>";
             _typeNameTable[12] = "TouristAppV3.model.Route";
             _typeNameTable[13] = "TouristAppV3.ExerciseDetailPage";
-            _typeNameTable[14] = "TouristAppV3.view.HelpUsView";
-            _typeNameTable[15] = "TouristAppV3.MainPage";
-            _typeNameTable[16] = "TouristAppV3.viewmodel.VikingViewModel";
-            _typeNameTable[17] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.viking>";
-            _typeNameTable[18] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.viking>";
-            _typeNameTable[19] = "TouristAppV3.model.viking";
-            _typeNameTable[20] = "Int32";
-            _typeNameTable[21] = "TouristAppV3.view.VikingView";
+            _typeNameTable[14] = "TouristAppV3.MainPage";
+            _typeNameTable[15] = "TouristAppV3.viewmodel.VikingViewModel";
+            _typeNameTable[16] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.viking>";
+            _typeNameTable[17] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.model.viking>";
+            _typeNameTable[18] = "TouristAppV3.model.viking";
+            _typeNameTable[19] = "Int32";
+            _typeNameTable[20] = "TouristAppV3.view.VikingView";
 
-            _typeTable = new global::System.Type[22];
+            _typeTable = new global::System.Type[21];
             _typeTable[0] = typeof(global::TouristAppV3.viewmodel.AddViewModel);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.AddModel>);
@@ -163,14 +162,13 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             _typeTable[11] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.Route>);
             _typeTable[12] = typeof(global::TouristAppV3.model.Route);
             _typeTable[13] = typeof(global::TouristAppV3.ExerciseDetailPage);
-            _typeTable[14] = typeof(global::TouristAppV3.view.HelpUsView);
-            _typeTable[15] = typeof(global::TouristAppV3.MainPage);
-            _typeTable[16] = typeof(global::TouristAppV3.viewmodel.VikingViewModel);
-            _typeTable[17] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.viking>);
-            _typeTable[18] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.viking>);
-            _typeTable[19] = typeof(global::TouristAppV3.model.viking);
-            _typeTable[20] = typeof(global::System.Int32);
-            _typeTable[21] = typeof(global::TouristAppV3.view.VikingView);
+            _typeTable[14] = typeof(global::TouristAppV3.MainPage);
+            _typeTable[15] = typeof(global::TouristAppV3.viewmodel.VikingViewModel);
+            _typeTable[16] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.viking>);
+            _typeTable[17] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.viking>);
+            _typeTable[18] = typeof(global::TouristAppV3.model.viking);
+            _typeTable[19] = typeof(global::System.Int32);
+            _typeTable[20] = typeof(global::TouristAppV3.view.VikingView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -215,13 +213,12 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
         private object Activate_11_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.Route>(); }
         private object Activate_12_Route() { return new global::TouristAppV3.model.Route(); }
         private object Activate_13_ExerciseDetailPage() { return new global::TouristAppV3.ExerciseDetailPage(); }
-        private object Activate_14_HelpUsView() { return new global::TouristAppV3.view.HelpUsView(); }
-        private object Activate_15_MainPage() { return new global::TouristAppV3.MainPage(); }
-        private object Activate_16_VikingViewModel() { return new global::TouristAppV3.viewmodel.VikingViewModel(); }
-        private object Activate_17_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.viking>(); }
-        private object Activate_18_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.viking>(); }
-        private object Activate_19_viking() { return new global::TouristAppV3.model.viking(); }
-        private object Activate_21_VikingView() { return new global::TouristAppV3.view.VikingView(); }
+        private object Activate_14_MainPage() { return new global::TouristAppV3.MainPage(); }
+        private object Activate_15_VikingViewModel() { return new global::TouristAppV3.viewmodel.VikingViewModel(); }
+        private object Activate_16_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.model.viking>(); }
+        private object Activate_17_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.model.viking>(); }
+        private object Activate_18_viking() { return new global::TouristAppV3.model.viking(); }
+        private object Activate_20_VikingView() { return new global::TouristAppV3.view.VikingView(); }
         private void VectorAdd_2_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.AddModel>)instance;
@@ -246,13 +243,13 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             var newItem = (global::TouristAppV3.model.Route)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_17_ObservableCollection(object instance, object item)
+        private void VectorAdd_16_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.viking>)instance;
             var newItem = (global::TouristAppV3.model.viking)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_18_Collection(object instance, object item)
+        private void VectorAdd_17_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.model.viking>)instance;
             var newItem = (global::TouristAppV3.model.viking)item;
@@ -365,46 +362,39 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 14:   //  TouristAppV3.view.HelpUsView
+            case 14:   //  TouristAppV3.MainPage
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_HelpUsView;
+                userType.Activator = Activate_14_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  TouristAppV3.MainPage
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_MainPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 16:   //  TouristAppV3.viewmodel.VikingViewModel
+            case 15:   //  TouristAppV3.viewmodel.VikingViewModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_16_VikingViewModel;
+                userType.Activator = Activate_15_VikingViewModel;
                 userType.AddMemberName("Vikings");
                 userType.AddMemberName("SelectedViking");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.viking>
+            case 16:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.model.viking>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.model.viking>"));
-                userType.CollectionAdd = VectorAdd_17_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_16_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 18:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.viking>
+            case 17:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.model.viking>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_18_Collection;
-                userType.CollectionAdd = VectorAdd_18_Collection;
+                userType.Activator = Activate_17_Collection;
+                userType.CollectionAdd = VectorAdd_17_Collection;
                 xamlType = userType;
                 break;
 
-            case 19:   //  TouristAppV3.model.viking
+            case 18:   //  TouristAppV3.model.viking
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_19_viking;
+                userType.Activator = Activate_18_viking;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("lenght");
                 userType.AddMemberName("material");
@@ -414,13 +404,13 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 20:   //  Int32
+            case 19:   //  Int32
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 21:   //  TouristAppV3.view.VikingView
+            case 20:   //  TouristAppV3.view.VikingView
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_21_VikingView;
+                userType.Activator = Activate_20_VikingView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

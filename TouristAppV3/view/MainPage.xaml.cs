@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
@@ -224,14 +225,45 @@ namespace TouristAppV3
             this.Frame.Navigate(typeof(VikingView));
         }
 
-        private void Restaurants_Click(object sender, RoutedEventArgs e)
+        private void Smiley_Click(object sender, RoutedEventArgs e)
         {
-            
+            ImageBrush myBrush = new ImageBrush();
+            Image image = new Image();
+            image.Source = new BitmapImage(new Uri("ms-appx:/Assets/RandomBackground/SmileyBackground.jpg"));
+            myBrush.ImageSource = image.Source;
+            Grid.Background = myBrush; 
         }
 
-        private void Hotels_Click(object sender, RoutedEventArgs e)
+        private void Cow_Click(object sender, RoutedEventArgs e)
         {
-            
+            ImageBrush myBrush = new ImageBrush();
+            Image image = new Image();
+            image.Source = new BitmapImage(new Uri("ms-appx:/Assets/RandomBackground/Cow.jpg"));
+            myBrush.ImageSource = image.Source;
+            Grid.Background = myBrush; 
         }
+
+        private void Daniel_Click(object sender, RoutedEventArgs e)
+        {
+            ImageBrush myBrush = new ImageBrush();
+            Image image = new Image();
+            image.Source = new BitmapImage(new Uri("ms-appx:/Assets/RandomBackground/Daniel.JPG"));
+            myBrush.ImageSource = image.Source;
+            Grid.Background = myBrush; 
+        }
+
+        private void Computer_Click(object sender, RoutedEventArgs e)
+        {
+            ImageBrush myBrush = new ImageBrush();
+            Image image = new Image();
+            image.Source = new BitmapImage(new Uri("ms-appx:/Assets/RandomBackground/Computer.jpg"));
+            myBrush.ImageSource = image.Source;
+            Grid.Background = myBrush; 
+        }
+
+       
+
+       
+         
     }
 }

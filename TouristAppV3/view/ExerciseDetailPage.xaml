@@ -30,8 +30,6 @@
                 </AppBarButton.Icon>
             </AppBarButton>
             <AppBarButton x:Name="Home" Icon="Home" Label="Home" Click="Home_Click"/>
-            <AppBarSeparator/>
-            <AppBarButton Icon="Comment" Label="Help The Developers"/>
             <!-- CommandBar content -->
         </CommandBar>
     </Page.BottomAppBar>

@@ -1,4 +1,8 @@
 Assets\Logo.scale-100.png
+Assets\RandomBackground\Computer.jpg
+Assets\RandomBackground\Cow.jpg
+Assets\RandomBackground\Daniel.JPG
+Assets\RandomBackground\SmileyBackground.jpg
 Assets\Roskilde_University_10.jpg
 Assets\Running\background.jpg
 Assets\Running\map1.jpg
@@ -28,6 +32,5 @@ App.xbf
 TouristAppV3.xr.xml
 view\AdditionalView.xbf
 view\ExerciseDetailPage.xbf
-view\HelpUsView.xbf
 view\MainPage.xbf
 view\VikingView.xbf
