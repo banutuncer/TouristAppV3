@@ -68,15 +68,10 @@ C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\qu
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\ProjectArchitectures.txt
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\ExerciseDetailPage.xbf
-C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\NatureDetailPage.xbf
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\ExerciseDetailPage.g.i.cs
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\ExerciseDetailPage.g.cs
-C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\NatureDetailPage.g.i.cs
-C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\NatureDetailPage.g.cs
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\ExerciseDetailPage.xaml
-C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\NatureDetailPage.xaml
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\ExerciseDetailPage.xbf
-C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\NatureDetailPage.xbf
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\AdditionalView.g.i.cs
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\AdditionalView.g.cs
 C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\VikingView.g.i.cs

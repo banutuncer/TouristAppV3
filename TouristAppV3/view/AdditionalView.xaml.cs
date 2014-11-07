@@ -26,5 +26,20 @@ namespace TouristAppV3.view
         {
             this.InitializeComponent();
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Exercise_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ExerciseDetailPage));
+        }
+
+        private void Viking_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(VikingView));
+        }
     }
 }

@@ -7,6 +7,35 @@
     xmlns:viewmodel="using:TouristAppV3.viewmodel"
     x:Class="TouristAppV3.view.VikingView"
     mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="Viking" Label="VikingMuseum" Click="Viking_Click">
+                <AppBarButton.Icon>
+                    <FontIcon Glyph="V"/>
+                </AppBarButton.Icon>
+                <AppBar>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Horizontal"/>
+                        <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
+                    </Grid>
+                </AppBar>
+            </AppBarButton>
+            <AppBarButton x:Name="Exercise" Label="Excercise" Click="Exercise_Click">
+                <AppBarButton.Icon>
+                    <FontIcon Glyph="E"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:Name="Home" Icon="Home" Label="Home" Click="Home_Click"/>
+            <AppBarSeparator/>
+            <AppBarButton Icon="Comment" Label="Help The Developers"/>
+            <!-- CommandBar content -->
+        </CommandBar>
+    </Page.BottomAppBar>
+
 
     <Grid>
         <Grid.Background>
@@ -16,16 +45,16 @@
             <viewmodel:VikingViewModel/>
         </Grid.DataContext>
         <ListView HorizontalAlignment="Left" Height="253" Margin="38,323,0,0" VerticalAlignment="Top" Width="201" ItemsSource="{Binding Vikings, Mode=TwoWay}" SelectedItem="{Binding SelectedViking, Mode=TwoWay}" FontSize="24" FontWeight="Bold" FontFamily="Arial Black" BorderBrush="#FFAE2424" Foreground="#FFE8CB12"/>
-        <TextBlock HorizontalAlignment="Left" Margin="691,104,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="33" Width="102" FontSize="36" FontWeight="Bold" SelectionHighlightColor="#FFB42C17" Foreground="#FF44702E"/>
-        <Image HorizontalAlignment="Left" Height="220" Margin="275,106,0,0" VerticalAlignment="Top" Width="360" Source="{Binding SelectedViking.ImageUrl, Mode=TwoWay}"/>
-        <TextBlock HorizontalAlignment="Left" Margin="901,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="49" Width="188" Text="{Binding SelectedViking.Name, Mode=TwoWay}" FontWeight="Bold" FontSize="36" FontFamily="Arial Black" Foreground="#FF5D9742" SelectionHighlightColor="#FF4414B4" RenderTransformOrigin="0.058,0.484"/>
+        <TextBlock HorizontalAlignment="Left" Margin="800,107,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="33" Width="102" FontSize="36" FontWeight="Bold" SelectionHighlightColor="#FFB42C17" Foreground="#FF44702E"/>
+        <Image HorizontalAlignment="Left" Height="277" Margin="244,109,0,0" VerticalAlignment="Top" Width="500" Source="{Binding SelectedViking.ImageUrl, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1010,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="49" Width="188" Text="{Binding SelectedViking.Name, Mode=TwoWay}" FontWeight="Bold" FontSize="36" FontFamily="Arial Black" Foreground="#FF5D9742" SelectionHighlightColor="#FF4414B4" RenderTransformOrigin="0.058,0.484"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Size" VerticalAlignment="Top" Foreground="#FF67BD3B"/>
-        <TextBlock HorizontalAlignment="Left" Margin="691,185,0,0" TextWrapping="Wrap" Text="Speed" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="36" Width="117" Foreground="#FF467032" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="901,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="102" Text="{Binding SelectedViking.speed, Mode=TwoWay}" FontFamily="Arial Black" FontSize="36" FontWeight="Bold" Foreground="#FF467032"/>
-        <TextBlock HorizontalAlignment="Left" Margin="691,268,0,0" TextWrapping="Wrap" Text="Material" VerticalAlignment="Top" Foreground="#FF467032" FontFamily="Arial Black" FontWeight="Bold" FontSize="36" RenderTransformOrigin="0.113,0.093"/>
-        <TextBlock HorizontalAlignment="Left" Margin="901,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="400" RenderTransformOrigin="0.725,-0.058" FontFamily="Arial Black" FontWeight="Bold" FontSize="36" Text="{Binding SelectedViking.material, Mode=TwoWay}" Foreground="#FF467032"/>
-        <TextBlock HorizontalAlignment="Left" Margin="691,326,0,0" TextWrapping="Wrap" Text="Length" VerticalAlignment="Top" Height="57" Width="141" Foreground="#FF467032" FontWeight="Bold" FontFamily="Arial Black" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="901,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="128" Foreground="#FF467032" FontFamily="Arial Black" FontWeight="Bold" FontSize="36" Text="{Binding SelectedViking.lenght}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="800,188,0,0" TextWrapping="Wrap" Text="Speed" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="36" Width="117" Foreground="#FF467032" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1010,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="102" Text="{Binding SelectedViking.speed, Mode=TwoWay}" FontFamily="Arial Black" FontSize="36" FontWeight="Bold" Foreground="#FF467032"/>
+        <TextBlock HorizontalAlignment="Left" Margin="800,271,0,0" TextWrapping="Wrap" Text="Material" VerticalAlignment="Top" Foreground="#FF467032" FontFamily="Arial Black" FontWeight="Bold" FontSize="36" RenderTransformOrigin="0.113,0.093"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1010,271,-44,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="400" RenderTransformOrigin="0.725,-0.058" FontFamily="Arial Black" FontWeight="Bold" FontSize="36" Text="{Binding SelectedViking.material, Mode=TwoWay}" Foreground="#FF467032"/>
+        <TextBlock HorizontalAlignment="Left" Margin="800,329,0,0" TextWrapping="Wrap" Text="Length" VerticalAlignment="Top" Height="57" Width="141" Foreground="#FF467032" FontWeight="Bold" FontFamily="Arial Black" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1010,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="128" Foreground="#FF467032" FontFamily="Arial Black" FontWeight="Bold" FontSize="36" Text="{Binding SelectedViking.lenght}"/>
         <Button Content="Additional Information" HorizontalAlignment="Left" Margin="35,618,0,0" VerticalAlignment="Top" Click="Button_Click" FontFamily="Arial Black" FontWeight="Bold" FontSize="18">
             <Button.Background>
                 <ImageBrush Stretch="Fill"/>
@@ -33,4 +62,5 @@
         </Button>
 
     </Grid>
+
 </Page>

@@ -30,15 +30,7 @@ namespace TouristAppV3
 
         
 
-        private void NatureButton_OnClickButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(NatureDetailPage));
-        }
-
-        private void RestaurantButton_OnClick_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
+        
 
         private void ExerciseButton_OnClickButton_Click_1(object sender, RoutedEventArgs e)
         {

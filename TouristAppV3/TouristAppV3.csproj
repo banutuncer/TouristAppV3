@@ -124,9 +124,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="view\NatureDetailPage.xaml.cs">
-      <DependentUpon>NatureDetailPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="view\VikingView.xaml.cs">
       <DependentUpon>VikingView.xaml</DependentUpon>
     </Compile>
@@ -160,6 +157,7 @@
     <Content Include="Assets\Vikings\VikingActivities.png" />
     <Content Include="Assets\Vikings\VikingContact.jpg" />
     <Content Include="Assets\Vikings\VikingHistory.jpg" />
+    <Content Include="model\XML.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -175,10 +173,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="view\MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="view\NatureDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
