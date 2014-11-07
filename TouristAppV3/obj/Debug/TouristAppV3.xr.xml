@@ -9,13 +9,6 @@
     <RootPropertyPathName Name="Routes" />
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="Description" />
-    <RootPropertyPathName Name="SelectedHotelModel" />
-    <RootPropertyPathName Name="Phonenumber" />
-    <RootPropertyPathName Name="Stars" />
-    <RootPropertyPathName Name="Location" />
-    <RootPropertyPathName Name="Hotels" />
-    <RootPropertyPathName Name="SelectedRestaurantModel" />
-    <RootPropertyPathName Name="Restaurants" />
     <RootPropertyPathName Name="SelectedViking" />
     <RootPropertyPathName Name="lenght" />
     <RootPropertyPathName Name="material" />
@@ -55,7 +48,6 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="FontStyle" />
       <RootProperty Name="ItemTemplate" />
-      <RootProperty Name="DataContext" />
       <RootProperty Name="BorderBrush" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
@@ -112,8 +104,6 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="TouristAppV3.ExerciseDetailPage" />
-    <RootType FullName="TouristAppV3.viewmodel.HotelViewModel" />
-    <RootType FullName="TouristAppV3.view.HotelDetailPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
       <RootProperty Name="Glyph" />
     </RootType>
@@ -139,8 +129,6 @@
     <RootType FullName="TouristAppV3.MainPage" />
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="TouristAppV3.view.NatureDetailPage" />
-    <RootType FullName="TouristAppV3.viewmodel.RestaurantViewModel" />
-    <RootType FullName="TouristAppV3.view.RestaurantDetailPage" />
     <RootType FullName="TouristAppV3.viewmodel.VikingViewModel" />
     <RootType FullName="TouristAppV3.view.VikingView" />
   </Roots.RootTypes>

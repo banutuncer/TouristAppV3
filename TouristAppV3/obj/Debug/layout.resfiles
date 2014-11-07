@@ -1,11 +1,4 @@
-Assets\Hotels\ComwellHotel.jpg
-Assets\Hotels\DanhotelHotel.jpg
-Assets\Hotels\HotelBackground.jpg
-Assets\Hotels\PrindsenHotel.jpg
-Assets\Hotels\RoskildeCamping.jpg
-Assets\Hotels\ScandicHotel.jpg
 Assets\Logo.scale-100.png
-Assets\Restaurants\RestaurantsBackground.jpg
 Assets\Roskilde_University_10.jpg
 Assets\Running\background.jpg
 Assets\Running\map1.jpg
@@ -30,8 +23,6 @@ App.xbf
 TouristAppV3.xr.xml
 view\AdditionalView.xbf
 view\ExerciseDetailPage.xbf
-view\HotelDetailPage.xbf
 view\MainPage.xbf
 view\NatureDetailPage.xbf
-view\RestaurantDetailPage.xbf
 view\VikingView.xbf

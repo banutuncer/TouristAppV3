@@ -109,14 +109,10 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="model\AddModel.cs" />
-    <Compile Include="model\HotelModel.cs" />
-    <Compile Include="model\RestaurantModel.cs" />
     <Compile Include="model\Route.cs" />
     <Compile Include="model\Viking.cs" />
     <Compile Include="viewmodel\AddViewModel.cs" />
     <Compile Include="viewmodel\ExerciseViewModel.cs" />
-    <Compile Include="viewmodel\HotelViewModel.cs" />
-    <Compile Include="viewmodel\RestaurantViewModel.cs" />
     <Compile Include="viewmodel\VikingViewModel.cs" />
     <Compile Include="view\AdditionalView.xaml.cs">
       <DependentUpon>AdditionalView.xaml</DependentUpon>
@@ -124,18 +120,12 @@
     <Compile Include="view\ExerciseDetailPage.xaml.cs">
       <DependentUpon>ExerciseDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="view\HotelDetailPage.xaml.cs">
-      <DependentUpon>HotelDetailPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="view\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="view\NatureDetailPage.xaml.cs">
       <DependentUpon>NatureDetailPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="view\RestaurantDetailPage.xaml.cs">
-      <DependentUpon>RestaurantDetailPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="view\VikingView.xaml.cs">
       <DependentUpon>VikingView.xaml</DependentUpon>
@@ -149,14 +139,7 @@
     <None Include="TouristAppV3_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Hotels\ComwellHotel.jpg" />
-    <Content Include="Assets\Hotels\DanhotelHotel.jpg" />
-    <Content Include="Assets\Hotels\HotelBackground.jpg" />
-    <Content Include="Assets\Hotels\PrindsenHotel.jpg" />
-    <Content Include="Assets\Hotels\RoskildeCamping.jpg" />
-    <Content Include="Assets\Hotels\ScandicHotel.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
-    <Content Include="Assets\Restaurants\RestaurantsBackground.jpg" />
     <Content Include="Assets\Roskilde_University_10.jpg" />
     <Content Include="Assets\Running\background.jpg" />
     <Content Include="Assets\Running\map1.jpg" />
@@ -191,19 +174,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="view\HotelDetailPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="view\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="view\NatureDetailPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="view\RestaurantDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

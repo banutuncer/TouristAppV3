@@ -43,16 +43,13 @@
             <!-- CommandBar content -->
         </CommandBar>
     </Page.BottomAppBar>
-    
+
     <Grid x:Name="Grid">
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Roskilde_University_10.jpg"/>
         </Grid.Background>
         <TextBlock HorizontalAlignment="Left" Margin="210,60,0,0" TextWrapping="Wrap" Text="TravelGuide" VerticalAlignment="Top" Height="98" Width="511" FontSize="72"/>
-        <Button x:Name="NatureButton" Content="Nature" HorizontalAlignment="Left" Margin="184,429,0,0" VerticalAlignment="Top" FontSize="18" Click="NatureButton_OnClickButton_Click"/>
-        <Button x:Name="RestaurantButton" Content="Restaurants" HorizontalAlignment="Left" Margin="184,308,0,0" VerticalAlignment="Top" FontSize="18" Click="RestaurantButton_OnClick_Click"/>
-        <Button x:Name="ExerciseButton" Content="Exercise" HorizontalAlignment="Left" Margin="184,370,0,0" VerticalAlignment="Top" FontSize="20" Click="ExerciseButton_OnClickButton_Click_1"/>
-        <Button x:Name="HotelButton" Content="Hotels" HorizontalAlignment="Left" Margin="184,248,0,0" VerticalAlignment="Top" FontSize="18" Click="HotelButton_OnClickButton_Click"/>
-        <Button x:Name="MuseumButton" Content="Museum" HorizontalAlignment="Left" Margin="184,190,0,0" VerticalAlignment="Top" FontSize="18" Click="MuseumButton_OnClickButton_Click"/>
+        <Button x:Name="ExerciseButton" Content="Exercise" HorizontalAlignment="Left" Margin="117,300,0,0" VerticalAlignment="Top" FontSize="20" Click="ExerciseButton_OnClickButton_Click_1" Height="130" Width="247"/>
+        <Button x:Name="MuseumButton" Content="Museum" HorizontalAlignment="Left" Margin="117,177,0,0" VerticalAlignment="Top" FontSize="18" Click="MuseumButton_OnClickButton_Click" Height="124" Width="247"/>
     </Grid>
 </Page>

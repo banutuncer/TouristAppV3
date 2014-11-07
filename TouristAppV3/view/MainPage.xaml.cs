@@ -37,7 +37,7 @@ namespace TouristAppV3
 
         private void RestaurantButton_OnClick_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(RestaurantDetailPage));
+            
         }
 
         private void ExerciseButton_OnClickButton_Click_1(object sender, RoutedEventArgs e)
@@ -47,7 +47,7 @@ namespace TouristAppV3
 
         private void HotelButton_OnClickButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(HotelDetailPage));
+            
         }
 
         private void MuseumButton_OnClickButton_Click(object sender, RoutedEventArgs e)
@@ -72,12 +72,12 @@ namespace TouristAppV3
 
         private void Restaurants_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(RestaurantDetailPage));
+            
         }
 
         private void Hotels_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(HotelDetailPage));
+            
         }
     }
 }
