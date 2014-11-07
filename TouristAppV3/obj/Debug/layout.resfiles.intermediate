@@ -6,6 +6,11 @@ Assets\Running\map2.jpg
 Assets\Running\map3.jpg
 Assets\Running\map4.jpg
 Assets\SmallLogo.scale-100.png
+Assets\Smiley1.png
+Assets\Smiley2.png
+Assets\Smiley3.png
+Assets\Smiley4.png
+Assets\Smiley5.png
 Assets\SplashScreen.scale-100.png
 Assets\StoreLogo.scale-100.png
 Assets\Vikings\Map.png
@@ -23,6 +28,6 @@ App.xbf
 TouristAppV3.xr.xml
 view\AdditionalView.xbf
 view\ExerciseDetailPage.xbf
+view\HelpUsView.xbf
 view\MainPage.xbf
 view\VikingView.xbf
-model\XML.xml

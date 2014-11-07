@@ -144,3 +144,8 @@ C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\obj\Debug\qualifiers.txt
 C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\obj\Debug\qualifiers.txt.intermediate
 C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\SAMSUNG\Desktop\Tourıst app\TouristAppV3\obj\Debug\ProjectArchitectures.txt
+C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\HelpUsView.g.i.cs
+C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\HelpUsView.g.cs
+C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\HelpUsView.xaml
+C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\obj\Debug\view\HelpUsView.xbf
+C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\HelpUsView.xbf

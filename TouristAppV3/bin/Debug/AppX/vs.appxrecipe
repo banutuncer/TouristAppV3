@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-07T02:00:48.398</Modified>
+      <Modified>2014-11-07T04:05:16.647</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.exe">
       <PackagePath>TouristAppV3.exe</PackagePath>
-      <Modified>2014-11-07T02:12:55.447</Modified>
+      <Modified>2014-11-07T04:06:37.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -37,6 +37,26 @@
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-10-24T09:54:28.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Smiley1.png">
+      <PackagePath>Assets\Smiley1.png</PackagePath>
+      <Modified>2014-11-07T03:20:52.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Smiley2.png">
+      <PackagePath>Assets\Smiley2.png</PackagePath>
+      <Modified>2014-11-07T03:20:52.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Smiley3.png">
+      <PackagePath>Assets\Smiley3.png</PackagePath>
+      <Modified>2014-11-07T03:20:52.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Smiley4.png">
+      <PackagePath>Assets\Smiley4.png</PackagePath>
+      <Modified>2014-11-07T03:20:52.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\Smiley5.png">
+      <PackagePath>Assets\Smiley5.png</PackagePath>
+      <Modified>2014-11-07T03:20:52.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
@@ -116,37 +136,37 @@
       <PackagePath>Assets\Vikings\VikingHistory.jpg</PackagePath>
       <Modified>2014-11-06T12:36:28.890</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\model\XML.xml">
-      <PackagePath>model\XML.xml</PackagePath>
-      <Modified>2014-11-07T01:36:55.835</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2014-11-07T00:32:38.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\AdditionalView.xbf">
       <PackagePath>view\AdditionalView.xbf</PackagePath>
-      <Modified>2014-11-07T02:11:43.716</Modified>
+      <Modified>2014-11-07T04:05:16.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\ExerciseDetailPage.xbf">
       <PackagePath>view\ExerciseDetailPage.xbf</PackagePath>
-      <Modified>2014-11-07T02:11:43.716</Modified>
+      <Modified>2014-11-07T04:05:16.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\HelpUsView.xbf">
+      <PackagePath>view\HelpUsView.xbf</PackagePath>
+      <Modified>2014-11-07T04:05:16.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\MainPage.xbf">
       <PackagePath>view\MainPage.xbf</PackagePath>
-      <Modified>2014-11-07T02:11:43.716</Modified>
+      <Modified>2014-11-07T04:05:16.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\view\VikingView.xbf">
       <PackagePath>view\VikingView.xbf</PackagePath>
-      <Modified>2014-11-07T02:12:55.275</Modified>
+      <Modified>2014-11-07T04:05:16.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\TouristAppV3.xr.xml">
       <PackagePath>TouristAppV3.xr.xml</PackagePath>
-      <Modified>2014-11-07T02:11:43.700</Modified>
+      <Modified>2014-11-07T04:05:16.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jubacabra\Desktop\Repositories\Tourist App V3\TouristAppV3\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-07T02:00:48.290</Modified>
+      <Modified>2014-11-07T04:05:16.580</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

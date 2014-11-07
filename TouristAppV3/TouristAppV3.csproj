@@ -120,6 +120,9 @@
     <Compile Include="view\ExerciseDetailPage.xaml.cs">
       <DependentUpon>ExerciseDetailPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="view\HelpUsView.xaml.cs">
+      <DependentUpon>HelpUsView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -144,6 +147,11 @@
     <Content Include="Assets\Running\map3.jpg" />
     <Content Include="Assets\Running\map4.jpg" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Smiley1.png" />
+    <Content Include="Assets\Smiley2.png" />
+    <Content Include="Assets\Smiley3.png" />
+    <Content Include="Assets\Smiley4.png" />
+    <Content Include="Assets\Smiley5.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
     <Content Include="Assets\Vikings\Map.png" />
@@ -157,7 +165,6 @@
     <Content Include="Assets\Vikings\VikingActivities.png" />
     <Content Include="Assets\Vikings\VikingContact.jpg" />
     <Content Include="Assets\Vikings\VikingHistory.jpg" />
-    <Content Include="model\XML.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -171,6 +178,10 @@
     <Page Include="view\ExerciseDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="view\HelpUsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="view\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>

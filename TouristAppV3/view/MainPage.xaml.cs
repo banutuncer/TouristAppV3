@@ -30,7 +30,169 @@ namespace TouristAppV3
 
         
 
+         int Result = 0;
+        private double Resultaverage;
+        private int num1 = 4;
+        private int num2 = 16;
+        private int num3 = 0;
+        private double num4 = 0.0;
         
+        
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            
+            num2 = 2;
+            num3 = num3 + 1;
+            Result = num1 + num2;
+            Resultaverage = Result/num3;
+            num1 = Result;
+            
+            if (Resultaverage == 1)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley1.png"));
+            }
+            if (Resultaverage == 2)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley2.png"));
+            }
+            if (Resultaverage == 3)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley3.png"));
+            }
+            if (Resultaverage == 4)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley4.png"));
+            }
+            if (Resultaverage == 5)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley5.png"));
+            }
+            
+        }
+
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            num2 = 1;
+            num3 = num3 + 1;
+            Result = num1 + num2;
+            Resultaverage = Result / num3;
+            num1 = Result;
+            if (Resultaverage == 1)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley1.png"));
+            }
+            if (Resultaverage == 2)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley2.png"));
+            }
+            if (Resultaverage == 3)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley3.png"));
+            }
+            if (Resultaverage == 4)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley4.png"));
+            }
+            if (Resultaverage == 5)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley5.png"));
+            }
+        }
+
+        private void Button3_Click(object sender, RoutedEventArgs e)
+        {
+            num2 = 3;
+            num3 = num3 + 1;
+            Result = (num1 + num2);
+            Resultaverage = Result / num3;
+            num1 = Result;
+            if (Resultaverage == 1)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley1.png"));
+            }
+            if (Resultaverage == 2)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley2.png"));
+            }
+            if (Resultaverage == 3)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley3.png"));
+            }
+            if (Resultaverage == 4)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley4.png"));
+            }
+            if (Resultaverage == 5)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley5.png"));
+            }
+            
+        }
+
+        private void Button4_Click(object sender, RoutedEventArgs e)
+        {
+            num2 = 4;
+            num3 = num3 + 1;
+            Result = (num1 + num2);
+            Resultaverage = Result / num3;
+            num1 = Result;
+            if (Resultaverage == 1)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley1.png"));
+            }
+            if (Resultaverage == 2)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley2.png"));
+            }
+            if (Resultaverage == 3)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley3.png"));
+            }
+            if (Resultaverage == 4)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley4.png"));
+            }
+            if (Resultaverage == 5)
+            {
+                this.Image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley5.png"));
+            }
+        }
+
+        private void Button5_Click(object sender, RoutedEventArgs e)
+        {
+            num2 = 5;
+            num3 = num3 + 1;
+            Result = (num1 + num2);
+            Resultaverage = Result/num3;
+            num1 = Result;
+            if (Resultaverage == 1)
+            {
+                this.Image1.Source =
+                    new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley1.png"));
+            }
+            if (Resultaverage == 2)
+            {
+                this.Image1.Source =
+                    new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley2.png"));
+            }
+            if (Resultaverage == 3)
+            {
+                this.Image1.Source =
+                    new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley3.png"));
+            }
+            if (Resultaverage == 4)
+            {
+                this.Image1.Source =
+                    new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley4.png"));
+            }
+            if (Resultaverage == 5)
+            {
+                this.Image1.Source =
+                    new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:/Assets/Smiley5.png"));
+            }
+        }
 
         private void ExerciseButton_OnClickButton_Click_1(object sender, RoutedEventArgs e)
         {
